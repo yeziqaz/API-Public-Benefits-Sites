@@ -19,9 +19,9 @@
 
 | 站点名称 | 适用范围 | 模型 | 每日签到 / 额度 | 注册方式 | 注册链接 | 备注 | 状态 | 最后检查 |
 | --- | --- | --- | --- | --- | --- | --- | :---: | --- |
-| [维云](#维云) | 日常聊天 + Codex + Claude Code，适配多种格式接入 | Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等 | 签到送 1 天订阅（5h 轮换），另有每日抽卡 | GitHub / Google | [点击注册](https://vsllm.cc/register?aff=GT3Z) | 响应快，新手友好，各软件都有教程 | ✅ | 2026-10-26 |
-| [AnyRouter](#anyrouter) | 仅 Coding：Codex + Claude Code | Claude 系列、GPT 系列 | 注册送 150+，每日签到 +25 | GitHub / edu 邮箱 | [点击注册](https://anyrouter.top/register?aff=j0lk) | 无充值入口；人多，高峰期需错峰 | ⚠️ 需错峰 | 2026-10-26 |
-| [ShareChat](#sharechat) | 仅 Coding：只能接 Codex | GPT-5.6 soil | 签到额度当日有效，每 3h 轮换恢复 | QQ 邮箱 | [点击注册](https://new.sharedchat.cc/list/#/register?i=TgQc3) | 用量受全站和 3h 窗口限制 | ✅ | 2026-10-26 |
+| [维云](#维云) | 日常聊天 ✅ Coding ✅（Claude Code / Codex 等多种格式可接入） | Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等 | 签到送 1 天订阅（5h 轮换），另有每日抽卡等 | GitHub / Google | [点击注册](https://vsllm.cc/register?aff=GT3Z) | 响应快，新手友好，各软件都有教程 | ✅ | 2026-10-26 |
+| [AnyRouter](#anyrouter) | 仅 Codex / Claude Code | Claude 系列、GPT 系列 | 注册 150+，每日签到 25 | GitHub / edu 邮箱 | [点击注册](https://anyrouter.top/register?aff=j0lk) | 无充值入口；人多，高峰期需错峰 | ⚠️ 需错峰 | 2026-10-26 |
+| [ShareChat](#sharechat) | 只支持接入 Codex | GPT-5.6 sol | 签到额度当日有效，每 3h 轮换恢复 | QQ 邮箱 | [点击注册](https://new.sharedchat.cc/list/#/register?i=TgQc3) | 用量受全站和 3h 窗口限制 | ✅ | 2026-10-26 |
 
 ---
 
@@ -31,28 +31,28 @@
 
 - **注册链接**：https://vsllm.cc/register?aff=GT3Z
 - **注册限制**：需使用 **GitHub** 或 **Google** 账号注册
-- **适用范围**：日常聊天 ✅　Coding ✅（适用范围广，适配多种格式接入）
+- **适用范围**：日常聊天 ✅　Coding ✅（Claude Code / Codex 等多种格式可接入，适用范围广）
 - **模型**：Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等，模型很全
 - **福利**：
   - 每日签到 ✅：签到送一天订阅（5h 轮换）
-  - 另有每日抽卡等额外配额可以拿
+  - 另有每日抽卡等额外配额获取方式
 - **亮点**：响应快、新手友好，各大软件都有对应的接入教程
 
 ### AnyRouter
 
 - **注册链接**：https://anyrouter.top/register?aff=j0lk
 - **注册方式**：**GitHub** 账号或 **edu 邮箱**
-- **适用范围**：只能接入 Claude Code 和 Codex，无充值入口
+- **适用范围**：仅 Codex / Claude Code，无充值入口
 - **模型**：Claude 系列、GPT 系列
-- **福利**：注册送 150+，每日签到再送 25
+- **福利**：注册 150+，每日签到 25
 - **注意**：人多，高峰期可能用不了，建议**错峰使用**；除此之外没什么缺点
 
 ### ShareChat
 
 - **注册链接**：https://new.sharedchat.cc/list/#/register?i=TgQc3
 - **注册方式**：**QQ 邮箱**注册即可
-- **适用范围**：Coding 站，**只能接入 Codex**
-- **模型**：GPT-5.6 soil
+- **适用范围**：只支持接入 Codex
+- **模型**：GPT-5.6 sol
 - **福利**：每日签到，额度当天有效
 - **用量规则**：每 3h 轮换恢复用量（按全站用量和 3h 窗口限制）
 
