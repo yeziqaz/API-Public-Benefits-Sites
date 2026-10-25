@@ -17,11 +17,11 @@
 
 ## 📋 站点列表
 
-| 站点名称 | 适用 | 日常聊天 | Codex | Claude Code | 每日签到 | 注册方式 | 状态 | 最后检查 |
-| --- | --- | :---: | :---: | :---: | :---: | --- | :---: | --- |
-| [维云](#维云) | 聊天 + Coding | ✅ | ✅ | ✅ | ✅ | GitHub / Google | ✅ | 2026-10-26 |
-| [AnyRouter](#anyrouter) | Coding | ❌ | ✅ | ✅ | ✅ | GitHub / edu 邮箱 | ⚠️ 需错峰 | 2026-10-26 |
-| [ShareChat](#sharechat) | Coding | ❌ | ✅ | ❌ | ✅ | QQ 邮箱 | ✅ | 2026-10-26 |
+| 站点名称 | 适用范围 | 模型 | 每日签到 / 额度 | 注册方式 | 注册链接 | 备注 | 状态 | 最后检查 |
+| --- | --- | --- | --- | --- | --- | --- | :---: | --- |
+| [维云](#维云) | 日常聊天 + Codex + Claude Code，适配多种格式接入 | Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等 | 签到送 1 天订阅（5h 轮换），另有每日抽卡 | GitHub / Google | [点击注册](https://vsllm.cc/register?aff=GT3Z) | 响应快，新手友好，各软件都有教程 | ✅ | 2026-10-26 |
+| [AnyRouter](#anyrouter) | 仅 Coding：Codex + Claude Code | Claude 系列、GPT 系列 | 注册送 150+，每日签到 +25 | GitHub / edu 邮箱 | [点击注册](https://anyrouter.top/register?aff=j0lk) | 无充值入口；人多，高峰期需错峰 | ⚠️ 需错峰 | 2026-10-26 |
+| [ShareChat](#sharechat) | 仅 Coding：只能接 Codex | GPT-5.6 soil | 签到额度当日有效，每 3h 轮换恢复 | QQ 邮箱 | [点击注册](https://new.sharedchat.cc/list/#/register?i=TgQc3) | 用量受全站和 3h 窗口限制 | ✅ | 2026-10-26 |
 
 ---
 
