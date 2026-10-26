@@ -21,7 +21,7 @@
 | --- | --- | --- | --- | --- | --- | --- | :---: | --- |
 | [维云](#维云) | 日常聊天 ✅ Coding ✅（Claude Code / Codex 等多种格式可接入） | Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等 | 签到送 1 天订阅（5h 轮换），另有每日抽卡等 | GitHub / Google | [点击注册](https://vsllm.cc/register?aff=GT3Z) | 响应快，新手友好，各软件都有教程 | ✅ | 2026-10-26 |
 | [晚晚舟](#晚晚舟) | 日常聊天 ✅ 另有编程专用站 | 主流模型都有，模型很全 | 不用邀请链接试吃 0.5，用邀请链接试吃 1；签到固定 1 额度（≈25 次小克 / 100 次哈基米），需邀请满 5 人开启签到 | 注册即可 | [点击注册](https://wanwanzhou.top/register?aff=PECCV33UH8P4) | 很推荐，响应速度快；此链接为日常使用站 | ✅ | 2026-10-26 |
-| [慧慧云](#慧慧云) | 日常聊天 ✅ 另有编程专用站 | Gemini / DeepSeek / Claude | 充 5r 或邀请满 5 人可签到，签到 0.4～1 额度 | **暂时关闭注册，可蹲** | [点击注册](https://api.huihuiyun.top/register?aff=V4GLCX8SUJVP) | 很推荐，比较划算；此链接为日常使用站；开注册会同步更新 | 🔒 暂停注册 | 2026-10-26 |
+| [慧慧云](#慧慧云) | 日常聊天 ✅ 另有编程专用站 | Gemini / DeepSeek / Claude | 充 5r 或邀请满 5 人可签到，签到 0.4～1 额度 | **暂时关闭注册，可蹲** | [点击注册](https://api.huihuiyun.top/register?aff=V4GLCX8SUJVP) | 很推荐，比较划算；此链接为日常使用站；开注册会同步更新；另有纯免费公益组（Grok4.7 / SenseNova-6.8-flash-lite 等） | 🔒 暂停注册 | 2026-10-26 |
 | [AnyRouter](#anyrouter) | 仅 Codex / Claude Code | Claude 系列、GPT 系列 | 注册 150+，每日签到 25 | GitHub / edu 邮箱 | [点击注册](https://anyrouter.top/register?aff=j0lk) | 无充值入口；人多，高峰期需错峰 | ⚠️ 需错峰 | 2026-10-26 |
 | [ShareChat](#sharechat) | 只支持接入 Codex | GPT-5.6 sol | 签到额度当日有效，每 3h 轮换恢复 | QQ 邮箱 | [点击注册](https://new.sharedchat.cc/list/#/register?i=TgQc3) | 用量受全站和 3h 窗口限制 | ✅ | 2026-10-26 |
 
@@ -60,6 +60,7 @@
 - **福利**：
   - 充 5r 或邀请满 5 人可开启签到
   - 签到可得 0.4～1 额度
+- **纯免费公益组**：有 Grok4.7、SenseNova-6.8-flash-lite（商汤日日新）等模型可用
 - **亮点**：很推荐，比较划算
 
 ### AnyRouter
