@@ -1,0 +1,320 @@
+/* =========================================================
+ * 站点数据：以后加站 / 改站只需要改这个文件
+ * ---------------------------------------------------------
+ * 页面上的「站子汇总」和「站子分类」都是根据下面的 SITES 自动生成的。
+ * 新增一个站子 → 汇总名单和分类卡片会同时出现，不用改 index.html。
+ * 名字的先后顺序 = 下面 SITES 里写的先后顺序。
+ *
+ * 新增站子：复制一整段 { ... }, 粘贴进 SITES，改内容即可。
+ * 不需要的字段可以直接删掉或留空 ''，空字段页面上不会显示。
+ *
+ * 字段说明：
+ *   name        站子名字（必填）
+ *   category    分类（必填），只能填：
+ *                 pure      纯公益站
+ *                 checkin   签到站
+ *                 nocheckin 无签到站
+ *                 coding    Coding 站
+ *   condition   有条件签到时写签到条件；不是有条件签到就写 ''
+ *               （填了内容，汇总里名字后面会自动加「（有条件签到）」）
+ *   link        邀请链接（注册链接）；还没有就写 ''，按钮会显示「链接待补充」
+ *   linkText    按钮上的字，不写默认是「邀请链接 · 去注册」
+ *   inviteCode  邀请码（有的站是填码不是点链接），会显示「复制邀请码」按钮
+ *   scope       适用范围
+ *   models      模型
+ *   quota       签到 / 额度（可以用 \n 换行）
+ *   register    注册方式 / 注册须知
+ *   note        说明（推荐理由等）
+ *   warn        注意事项（会用橙色高亮）
+ *   status      状态：ok 可用 / unstable 不稳定 / closed 暂停注册 / dead 已失效
+ *   statusText  状态补充说明（可不填）
+ *   checked     最后检查日期（可不填）
+ * ========================================================= */
+
+const CATEGORIES = [
+  { id: 'pure',      name: '纯公益站',  desc: '无充值入口，仅签到、邀新获取额度' },
+  { id: 'checkin',   name: '签到站',    desc: '每日签到领额度，部分站点需满足条件才能签到（有条件签到）' },
+  { id: 'nocheckin', name: '无签到站',  desc: '仅有试吃，无签到' },
+  { id: 'coding',    name: 'Coding 站', desc: '仅 Coding 专用（前面列举的站子也可能支持 Coding，只是这个分类专门收录只能用于 Coding 的站点）' },
+];
+
+const SITES = [
+  /* ==================== 纯公益站 ==================== */
+  {
+    name: '77625路由',
+    category: 'pure',
+    condition: '',
+    link: 'https://ly.77625.xyz/#/wallet',
+    linkText: '前往站点（注册时填邀请码）',
+    inviteCode: 'Q7FTXMLBAQ',
+    quota: '注册、签到都有积分\n填写邀请码可以额外获得 3000 积分',
+    register: '站长手动审核，所以注册会比较慢；会有一个七天审核工单（大概是检验是不是真人玩家），之后就能解锁全部模型',
+    note: '纯公益站，送的额度是真的很多；模型虽然不多，但是该有的也都有了，哪怕是 Coding 额度也是绰绰有余。不强制要求推广，没有附加条件',
+    warn: '这个站子不能开梯子玩',
+    status: 'ok',
+  },
+  {
+    name: 'gudufree',
+    category: 'pure',
+    condition: '',
+    link: 'https://gudufree.yeelam.site/sign-up?aff=3akm',
+    models: '模型比较少，有 Gemini-flash 系列',
+    quota: '有签到',
+    note: '纯公益站',
+    warn: '进站要开魔法',
+    status: 'ok',
+  },
+  {
+    name: '夜阑',
+    category: 'pure',
+    condition: '',
+    link: 'https://yetland.cn/',
+    linkText: '前往站点',
+    scope: '仅可用于聊天',
+    models: '仅可调用夜阑自制的模型 yetland_opus_5_5_pure',
+    note: '与其说它是一个 API 站子，不如说是一个免费 aichrp 网站，有完整的可玩的角色卡，也可自己创建角色卡，还有小手机和语音通话等',
+    status: 'ok',
+  },
+
+  /* ==================== 签到站 ==================== */
+  {
+    name: '聚梦',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api.jumengai.net/sign-up?aff=CavN',
+    note: 'Gemini 好吃',
+    status: 'ok',
+  },
+  {
+    name: 'nodex',
+    category: 'checkin',
+    condition: '',
+    link: 'https://nodexapi.it.com/sign-up?aff=UCjd',
+    quota: '签到可得 0.1',
+    note: '小克好吃',
+    status: 'ok',
+  },
+  {
+    name: '宅恋',
+    category: 'checkin',
+    condition: '按昨日调用次数 / 消耗额度',
+    link: 'https://az.zlapi.vip/register?aff=sPMr',
+    quota: '按昨日调用次数 ≥ 10 次：奖励 ¥0.004 - ¥0.01\n按昨日消耗额度 ≥ ¥1：奖励 ¥0.05 - ¥0.16\n　　　　　　　≥ ¥5：奖励 ¥0.16 - ¥0.6\n　　　　　　　≥ ¥10：奖励 ¥0.6 - ¥1.8\n两套规则只选择一套奖励',
+    note: '有固定的 Gemini 公益分组，下午 1:30～3:30 可用（公益分组限制速率一分钟两次），公益分组请求也算调用次数。也有几率上小克或者其他模型进免费分组，站长比较负责',
+    status: 'ok',
+  },
+  {
+    name: 'ovo',
+    category: 'checkin',
+    condition: '按前一天实际消费返',
+    link: 'https://hk.ovoapi.cn/sign-up?aff=sLNU',
+    quota: '按前一天实际消费，普通用户返 5%，VIP 返 10%',
+    note: '站子特色风味模型，活动较多',
+    status: 'ok',
+  },
+  {
+    name: 'laneai',
+    category: 'checkin',
+    condition: '',
+    link: 'https://laneai.dev/i/009098e2',
+    quota: '签到固定给 0.1',
+    note: '原 421 站子',
+    status: 'ok',
+  },
+  {
+    name: '晚晚舟',
+    category: 'checkin',
+    condition: '要拉 5 个人才能签到',
+    link: 'https://wanwanzhou.top/register?aff=PECCV33UH8P4',
+    scope: '日常聊天，另有编程专用站（此链接为日常使用站）',
+    models: '主流模型都有，模型很全',
+    quota: '签到固定给 1，很划算：按次一次签到能吃 100 次哈基米、25 次克，按量会更划算\n不用邀请链接试吃 0.5，用邀请链接试吃 1',
+    note: '由于前期宣传拉人签到很败好感，除此之外很推荐',
+    status: 'ok',
+  },
+  {
+    name: '慧慧云',
+    category: 'checkin',
+    condition: '邀请 5 人或充 5r 才可签到',
+    link: 'https://api.huihuiyun.top/register?aff=V4GLCX8SUJVP',
+    scope: '日常聊天，另有编程专用站（此链接为日常使用站）',
+    models: 'Gemini / DeepSeek / Claude',
+    quota: '签到 0.4～1',
+    note: '有纯免费分组可用（Grok4.7 / SenseNova-6.8-flash-lite 等）',
+    status: 'closed',
+    statusText: '可蹲',
+  },
+  {
+    name: '哈基米',
+    category: 'checkin',
+    condition: '',
+    link: 'https://gemai.huchan.cn/sign-up?aff=hwir',
+    note: '老牌站子，优点是响应快，模型多，也有特惠分组。每周末会有抽奖，可以挂着签到兜底',
+    status: 'ok',
+  },
+  {
+    name: '维云',
+    category: 'checkin',
+    condition: '',
+    link: 'https://vsllm.cc/i/GT3Z',
+    scope: '日常聊天 + Coding（Claude Code / Codex 等多种格式可接入）',
+    models: 'Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等',
+    quota: '签到领日卡，还有额外的额度可领（抽卡等小游戏可得）',
+    register: 'GitHub / Google',
+    note: '私心认为这个算半公益站了，完全可以当公益站使用。有新手教程，各种客户端的接入基本上都有适配教程',
+    warn: '响应速度会稍微慢一些',
+    status: 'ok',
+  },
+  {
+    name: 'linkAPI',
+    category: 'checkin',
+    condition: '',
+    link: 'https://linkapi.cc/sign-up?aff=vnM6',
+    note: '模型比较多',
+    status: 'ok',
+  },
+  {
+    name: '芙卡卡',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://api.fuka.win/sign-up?aff=9Vlt',
+    scope: '适合 airp',
+    models: '龙舌兰和百香果系列模型等，龙舌兰的 gemini3.1 好吃',
+    quota: '无签到，仅有试吃（100 或 150 点，具体额度待确认）',
+    note: '个人比较喜欢吃龙舌兰和百香果系列模型，特别是龙舌兰的 gemini3.1 好吃',
+    status: 'ok',
+  },
+  {
+    name: '大肘子',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api.dzzi.ai/sign-up?aff=ANeA',
+    note: '老牌站子，模型多',
+    warn: '签到所得额度 30 天未使用会过期',
+    status: 'ok',
+  },
+  {
+    name: 'sunapi',
+    category: 'checkin',
+    condition: '',
+    link: 'https://sunapi.5201201314.top/sign-up?aff=D7Kx',
+    models: '常驻模型有 DeepSeek4.1flash、gemini3.5/3.6flash、gpt5.6/image1.5、glm4.5/4.6/4.7flash、Grok4.7 等',
+    note: '基本上可以当做公益站使用，但可用性不高。站长偶尔会打猎一些模型回来',
+    status: 'ok',
+  },
+  {
+    name: 'Factorypub',
+    category: 'checkin',
+    condition: '',
+    link: 'https://factory.pub/sign-up?aff=7jcG',
+    scope: '日常聊天 + Coding',
+    models: 'Claude / DeepSeek / Grok / GLM / GPT 等',
+    quota: '每日签到',
+    register: '仅支持 yaohuo 或 GitHub 账号注册',
+    status: 'ok',
+  },
+  {
+    name: '长春叙',
+    category: 'checkin',
+    condition: '',
+    link: 'https://changchunxu.xyz/sign-up?aff=nS1O',
+    scope: '日常聊天 + Coding',
+    models: 'Gemini / Claude / DeepSeek / Kimi 等',
+    quota: '注册送 4.5 额度，每日签到领额度',
+    status: 'ok',
+  },
+
+  {
+    name: 'BER分公益站',
+    category: 'checkin',
+    condition: '',
+    link: 'https://ai.berf1.cn/sign-up?aff=twS6',
+    models: 'DeepSeek / gpt / Grok；模型比较少，且总体只有 DeepSeekv4flash 可用性比较高，其他模型要看情况',
+    quota: '使用邀请链接注册送 50 额度',
+    status: 'ok',
+  },
+  {
+    name: '可萌中转站',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api456.me/sign-up?aff=vGZo',
+    scope: '比较适合 airp',
+    models: 'DeepSeek / claude / gpt / gemini / glm 等',
+    quota: '限时到 11 月 9 号；邀请链接进可得 15 币',
+    note: '有版本的神：DeepSeekv3.2 / gemini2.5pro / gemini3.1pro / claudeOpus4.6 / glm5.2，但缺点就是没有新模型',
+    status: 'ok',
+  },
+  {
+    name: '星期五',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api.fri5.top/sign-up?aff=ho2r',
+    models: '模型比较多',
+    quota: '签到 $0.01 ～ $0.1，签到额度有效期 24h，否则失效\n周五充值八折，充 5r 解锁 VIP，可累计签到额度',
+    note: '邀请链接进 2.5r 试吃（参考：gemini0.02/次）',
+    status: 'ok',
+  },
+
+  /* ==================== 无签到站 ==================== */
+  {
+    name: '小力孩',                    // TODO：分类待确认
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://ygxnhzy.cn/register?invite_code=NB9EX3XQ',
+    scope: '日常聊天 + Coding（可一键接入多种客户端）',
+    models: '模型类型比较全，涵盖生图、生视频类；DeepSeek V4.1 flash 免费开放，无需积分调用',
+    quota: '个人每日 500 万 Token + 每日共享池 1000 万 Token，每日可重置 3 次',
+    note: '很推荐；有代码模型也有文游专用模型',
+    status: 'ok',
+  },
+
+  {
+    name: '布丁熊',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://ai.hyperx.one/sign-up?aff=Fnzy',
+    models: '模型虽然比较少，但是全，DeepSeek / claude / gpt / gemini / glm 等，有太子可吃',
+    quota: '不可签到，注册送 0.5 币',
+    note: '参考：gemini0.03/次',
+    status: 'ok',
+  },
+
+  /* ==================== Coding 站 ==================== */
+  {
+    name: 'Axis ai',
+    category: 'coding',
+    condition: '',
+    link: 'https://ai.onyxaxis.org/register?invite=8KQ5C724',
+    scope: '纯公益 Coding 站子，只允许 Coding；禁止 NSFW、禁止 airp、禁止接入酒馆等',
+    models: '一般会有 claude / gpt / DeepSeek / gemini 等，但是并不一定，会波动；使用时要关注模型可用性',
+    note: '响应较慢，适用于夜猫子作息颠倒的人',
+    warn: '貌似识图功能被阉割了',
+    status: 'ok',
+  },
+  {
+    name: 'AnyRouter',
+    category: 'coding',
+    condition: '',
+    link: 'https://anyrouter.top/register?aff=j0lk',
+    scope: '仅 Codex / Claude Code',
+    models: 'Claude 系列、GPT 系列',
+    quota: '注册 150+，每日签到 25',
+    register: 'GitHub / edu 邮箱',
+    note: '无充值入口',
+    warn: '人多，高峰期需错峰',
+    status: 'unstable',
+    statusText: '需错峰',
+  },
+  {
+    name: 'ShareChat',
+    category: 'coding',
+    condition: '',
+    link: 'https://new.sharedchat.cc/list/#/register?i=TgQc3',
+    scope: '只支持接入 Codex',
+    models: 'GPT-5.6 sol',
+    quota: '签到额度当日有效，每 3h 轮换恢复',
+    register: 'QQ 邮箱',
+    note: '用量受全站和 3h 窗口限制',
+    status: 'ok',
+  },
+];
