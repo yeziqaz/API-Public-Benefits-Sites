@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>API公益站合集 · 站子推荐 & 我的站子备忘录</title>
+<meta name="description" content="2026 API 公益站 / 签到站 / Coding 站推荐，以及个人 API 站点备忘录（API Key、API URL 本地保存）。">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="themes.css">
+</head>
+<body>
+
+<header class="hero">
+      <div class="top-actions">
+    <button class="icon-btn" id="themeToggle" type="button" aria-label="切换皮肤" title="皮肤" aria-expanded="false" aria-controls="themeMenu">
+      <svg class="theme-icon theme-icon-default" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="theme-icon theme-icon-berry" viewBox="0 0 24 24"><path d="M12 3c-3.3 0-6 2.7-6 6 0 4.5 6 12 6 12s6-7.5 6-12c0-3.3-2.7-6-6-6z"/><circle cx="9.5" cy="8" r="1.2"/><circle cx="14.5" cy="8" r="1.2"/><circle cx="12" cy="12.5" r="1.2"/></svg>
+      <svg class="theme-icon theme-icon-apple" viewBox="0 0 24 24"><path d="M12 8.2c-1.2-2-3.4-3-5-2C5 7.2 4 9.8 5 13.2c.9 3.2 3.4 5.8 5.6 5.8.6 0 1-.2 1.4-.4.5-.2.6-.2 1 0 .4.2.8.4 1.4.4 2.2 0 4.7-2.6 5.6-5.8 1-3.4 0-6-2-7-1.6-1-3.8 0-5 2z"/><path d="M12 8.2V5.4"/><path d="M12 5.4c1.4 0 2.4-.9 2.9-2"/></svg>
+      <svg class="theme-icon theme-icon-neuro" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+    <button class="icon-btn" id="announcementBtn" type="button" aria-label="公告" title="公告" aria-expanded="false" aria-controls="announcementPanel">
+      <svg viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+      <span class="badge-dot" id="announcementBadge" hidden></span>
+    </button>
+  </div>
+
+  <div class="theme-menu" id="themeMenu" role="radiogroup" aria-label="选择皮肤" hidden>
+    <p class="theme-menu-title">选择皮肤</p>
+    <button class="theme-option" type="button" role="radio" aria-checked="false" data-theme-id="default">
+      <span class="theme-swatch theme-swatch-default"></span><span class="theme-option-name">默认</span>
+      <svg class="theme-check" viewBox="0 0 24 24"><path d="M4 12.5 9 17.5 20 6.5"/></svg>
+    </button>
+    <button class="theme-option" type="button" role="radio" aria-checked="false" data-theme-id="berry">
+      <span class="theme-swatch theme-swatch-berry"></span><span class="theme-option-name">粉雾</span>
+      <svg class="theme-check" viewBox="0 0 24 24"><path d="M4 12.5 9 17.5 20 6.5"/></svg>
+    </button>
+    <button class="theme-option" type="button" role="radio" aria-checked="false" data-theme-id="apple">
+      <span class="theme-swatch theme-swatch-apple"></span><span class="theme-option-name">青苹果</span>
+      <svg class="theme-check" viewBox="0 0 24 24"><path d="M4 12.5 9 17.5 20 6.5"/></svg>
+    </button>
+    <button class="theme-option" type="button" role="radio" aria-checked="false" data-theme-id="neuro">
+      <span class="theme-swatch theme-swatch-neuro"></span><span class="theme-option-name">夜间</span>
+      <svg class="theme-check" viewBox="0 0 24 24"><path d="M4 12.5 9 17.5 20 6.5"/></svg>
+    </button>
+  </div>
+  <h1>API公益站合集</h1>
+  <p>2026 公益站 / 签到站 / Coding 站推荐 · 外加你的专属 API 站子备忘录</p>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tab active" data-tab="recommend" role="tab">🌟 站子推荐</button>
+  <button class="tab" data-tab="memo" role="tab">📒 我的站子</button>
+</nav>
+
+<main>
+  <!-- ================= 功能一：站子推荐 ================= -->
+  <section id="recommend" class="panel active">
+
+    <div class="card">
+      <h2>站子汇总</h2>
+      <p class="hint">点名字可以直接跳到下面对应的站子卡片。</p>
+      <div id="summary"></div>
+    </div>
+
+    <div class="legend">
+      状态：<span class="badge ok">✅ 可用</span>
+      <span class="badge unstable">⚠️ 不稳定 / 需错峰</span>
+      <span class="badge closed">🔒 暂停注册</span>
+      <span class="badge dead">❌ 已失效</span>
+    </div>
+
+    <h2 class="section-title">站子分类</h2>
+    <div id="categories"></div>
+
+    <div class="card notice">
+      <h3 class="notice-toggle">⚠️ 说明</h3>
+      <div class="notice-content">
+        <ul>
+          <li>本页只做信息收集与整理，不对站点的稳定性、安全性负责。</li>
+          <li>公益站资源来之不易，请合理使用、不要滥用，不要倒卖额度。</li>
+          <li>请勿在第三方站点传输隐私信息或敏感数据；涉及充值的站点请先小额测试。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 功能二：我的站子备忘录 ================= -->
+  <section id="memo" class="panel">
+
+    <div class="card">
+      <h2 id="formTitle">添加我的站子</h2>
+      <form id="memoForm" autocomplete="off">
+        <input type="hidden" id="f-id">
+        <label>站子名字 <span class="req">*</span>
+          <input id="f-name" required placeholder="例如：维云">
+        </label>
+        <label>所属分组
+          <select id="f-group" aria-label="所属分组"></select>
+        </label>
+        <label>邀请链接（用于分享给别人）
+          <input id="f-invite" type="text" inputmode="url" placeholder="https://example.com/register?aff=xxxx">
+        </label>
+        <label>API URL（Base URL）
+          <input id="f-api" type="text" inputmode="url" placeholder="https://example.com/v1">
+        </label>
+        <div class="keys-section">
+          <label>API Keys
+            <button type="button" class="btn small" id="addKeyBtn" title="添加 API Key">+ 添加</button>
+          </label>
+          <div id="keysContainer"></div>
+        </div>
+        <label>备注
+          <textarea id="f-note" rows="2" placeholder="例如：签到时间、可用模型、额度……"></textarea>
+        </label>
+        <div class="row">
+          <button type="submit" class="btn primary" id="saveBtn">保存</button>
+          <button type="button" class="btn" id="cancelBtn" hidden>取消编辑</button>
+        </div>
+      </form>
+      <p class="hint">🔒 所有内容只保存在<b>你自己这台设备的浏览器里</b>（不会上传到任何服务器）。换设备 / 清理浏览器数据前请先「导出备份」。</p>
+    </div>
+
+    <div class="toolbar">
+      <input id="memoSearch" type="search" placeholder="搜索我的站子…">
+      <button class="btn" id="exportBtn">导出备份</button>
+      <label class="btn" for="importFile">导入备份</label>
+      <input type="file" id="importFile" accept=".json,application/json" hidden>
+    </div>
+
+    <div class="group-toolbar">
+      <button type="button" class="btn" id="addGroupBtn">新建分组</button>
+      <button type="button" class="btn" id="expandGroupsBtn">全部展开</button>
+      <button type="button" class="btn" id="collapseGroupsBtn">全部收起</button>
+    </div>
+    <p class="hint">点击组名展开或收起；未分组的站子自动放入默认组，所有组名均可修改。</p>
+    <div id="memoList"></div>
+  </section>
+</main>
+
+<footer>
+  <a href="https://github.com/yeziqaz/API-Public-Benefits-Sites" target="_blank" rel="noopener">GitHub 仓库</a>
+  · 发现新站或失效站点，欢迎提 Issue
+</footer>
+
+<div id="toast"></div>
+
+<!-- 公告列表面板 -->
+<div class="announcement-panel" id="announcementPanel" role="dialog" aria-label="公告" hidden>
+  <div class="panel-header">
+    <h3>站点公告</h3>
+    <button class="panel-close" type="button" aria-label="关闭公告">×</button>
+  </div>
+  <div class="panel-body" id="announcementList"></div>
+</div>
+
+<script src="announcements.js"></script>
+<script src="sites.js"></script>
+<script src="app.js"></script>
+<script src="notifications.js"></script>
+</body>
+</html>
