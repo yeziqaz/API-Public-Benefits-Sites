@@ -252,7 +252,12 @@
       }
     } catch (e) { memos = []; }
     if (!Array.isArray(memos)) memos = [];
-    memos = memos.filter(m => m && typeof m === 'object').map(m => ({ ...m, group: groupId(m.group) }));
+    memos = memos.filter(m => m && typeof m === 'object').map(m => {
+      const item = { ...m, group: groupId(m.group) };
+      // 老版本没有「站子链接」字段：有邀请链接的补一次，之后就以 link 为准
+      if (!('link' in item)) item.link = String(item.invite || '');
+      return item;
+    });
   };
   const save = () => {
     try { localStorage.setItem(KEY, JSON.stringify({ version: 2, items: memos, groups })); }
@@ -309,14 +314,16 @@
   function renderMemos() {
     const q = $('#memoSearch').value.trim().toLowerCase();
     const list = memos.filter((m) => !q ||
-      [m.name, m.invite, m.api, m.note].some((v) => String(v || '').toLowerCase().includes(q)));
+      [m.name, m.link, m.invite, m.api, m.note].some((v) => String(v || '').toLowerCase().includes(q)));
 
     const card = (m) => {
-      const invite = safeUrl(m.invite);
+      const link = safeUrl(m.link);
       const keys = m.keys || [];
       return `
         <article class="site memo-item">
           <div class="site-top"><h4>${esc(m.name)}</h4></div>
+          ${m.link ? `<div class="field"><span class="label">站子链接</span><code>${esc(m.link)}</code>
+            <button class="btn small" data-copy="${esc(m.link)}" data-label="站子链接">复制</button></div>` : ''}
           ${m.invite ? `<div class="field"><span class="label">邀请链接</span><code>${esc(m.invite)}</code>
             <button class="btn small" data-copy="${esc(m.invite)}" data-label="邀请链接">复制</button></div>` : ''}
           ${m.api ? `<div class="field"><span class="label">API URL</span><code>${esc(m.api)}</code>
@@ -329,7 +336,7 @@
           }).join('')}
           ${m.note ? `<p class="memo-note">${esc(m.note)}</p>` : ''}
           <div class="actions">
-            ${invite ? `<a class="btn primary" href="${esc(invite)}" target="_blank" rel="noopener">打开站子</a>` : ''}
+            ${link ? `<a class="btn primary" href="${esc(link)}" target="_blank" rel="noopener">打开站子</a>` : ''}
             <button class="btn" data-act="edit" data-id="${m.id}">编辑</button>
             <button class="btn danger" data-act="del" data-id="${m.id}">删除</button>
           </div>
@@ -403,7 +410,12 @@
 
   function resetForm() {
     $('#memoForm').reset();
+    ['#f-name', '#f-link', '#f-invite', '#f-api', '#f-note'].forEach((sel) => {
+      const el = $(sel);
+      if (el) el.value = '';
+    });
     $('#f-id').value = '';
+    $('#f-group').value = 'default';
     $('#formTitle').textContent = '添加我的站子';
     $('#saveBtn').textContent = '保存';
     $('#cancelBtn').hidden = true;
@@ -414,6 +426,7 @@
     e.preventDefault();
     const data = {
       name: $('#f-name').value.trim(),
+      link: $('#f-link').value.trim(),
       invite: $('#f-invite').value.trim(),
       api: $('#f-api').value.trim(),
       keys: getKeys(),
@@ -452,6 +465,7 @@
       $('#f-id').value = m.id;
       $('#f-name').value = m.name || '';
       $('#f-group').value = groupId(m.group);
+      $('#f-link').value = m.link || '';
       $('#f-invite').value = m.invite || '';
       $('#f-api').value = m.api || '';
       setKeys(m.keys || []);
@@ -472,6 +486,7 @@
 
   // 导出备份
   $('#exportBtn').addEventListener('click', () => {
+    if (!memos.length) return toast('还没有可导出的记录');
     const blob = new Blob([JSON.stringify({ app: 'api-site-memo', version: 2, items: memos, groups }, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
@@ -517,7 +532,7 @@
           const invite = it.invite || it.url || '';  // 兼容旧的 url 字段
           const item = {
             id: String(it.id || Date.now().toString(36) + Math.random().toString(36).slice(2, 6)),
-            name: String(it.name), invite: String(invite), api: String(it.api || ''),
+            name: String(it.name), link: String(it.link || invite || ''), invite: String(invite), api: String(it.api || ''),
             keys, note: String(it.note || ''), created: it.created || Date.now(),
             group: importedGroupMap.get(it.group) || 'default',
           };
