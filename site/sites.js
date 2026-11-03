@@ -54,6 +54,15 @@ const SITES = [
     status: 'ok',
   },
   {
+    name: 'Oz',
+    category: 'pure',
+    condition: '',
+    link: 'https://newapi.0z.hk/sign-up?aff=JFHX',
+    scope: '仅允许 airp',
+    note: '公益站',
+    status: 'ok',
+  },
+  {
     name: 'gudufree',
     category: 'pure',
     condition: '',
