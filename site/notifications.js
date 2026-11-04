@@ -46,32 +46,14 @@
       return;
     }
     
-    // 相对时间计算
-    function timeAgo(dateStr) {
-      const now = new Date();
-      const past = new Date(dateStr);
-      const diffMs = now - past;
-      const diffMins = Math.floor(diffMs / 60000);
-      const diffHours = Math.floor(diffMs / 3600000);
-      const diffDays = Math.floor(diffMs / 86400000);
-      
-      if (diffMins < 1) return '刚刚';
-      if (diffMins < 60) return `${diffMins} 分钟前`;
-      if (diffHours < 24) return `${diffHours} 小时前`;
-      if (diffDays < 7) return `${diffDays} 天前`;
-      if (diffDays < 30) return `${Math.floor(diffDays / 7)} 周前`;
-      return dateStr; // 超过 30 天显示原始日期
-    }
-    
     list.innerHTML = ANNOUNCEMENTS.map(a => {
       const typeLabel = a.type === 'newsite' ? '新站点' : a.type === 'update' ? '更新' : '通知';
       const typeClass = a.type === 'newsite' ? 'new' : a.type === 'update' ? 'update' : 'notice';
-      const relativeTime = timeAgo(a.date);
       return `
         <div class="announcement-item" data-id="${a.id}">
           <div class="announcement-header">
             <span class="announcement-type ${typeClass}">${typeLabel}</span>
-            <span class="announcement-date">${relativeTime}${relativeTime === a.date ? '' : ' · ' + a.date}</span>
+            <span class="announcement-date">${a.date}</span>
           </div>
           <h3 class="announcement-title">${a.title}</h3>
           <div class="announcement-content">${a.content}</div>
