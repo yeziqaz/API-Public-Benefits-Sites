@@ -47,17 +47,12 @@
     }
     
     list.innerHTML = ANNOUNCEMENTS.map(a => {
-      const typeLabel = a.type === 'newsite' ? '新站点' : a.type === 'update' ? '更新' : '通知';
-      const typeClass = a.type === 'newsite' ? 'new' : a.type === 'update' ? 'update' : 'notice';
       return `
-        <div class="announcement-item" data-id="${a.id}">
-          <div class="announcement-header">
-            <span class="announcement-type ${typeClass}">${typeLabel}</span>
-            <span class="announcement-date">${a.date}</span>
-          </div>
-          <h3 class="announcement-title">${a.title}</h3>
-          <div class="announcement-content">${a.content}</div>
-        </div>
+        <article class="announcement-entry">
+          <time>${a.date}</time>
+          <h4>${a.title}</h4>
+          <div>${a.content || ''}</div>
+        </article>
       `;
     }).join('');
   }
@@ -81,7 +76,7 @@
 
   // 绑定事件
   const btn = document.getElementById('announcementBtn');
-  const closeBtn = document.getElementById('closeAnnouncement');
+  const closeBtn = document.querySelector('.panel-close');
   const panel = document.getElementById('announcementPanel');
 
   if (btn) btn.addEventListener('click', openAnnouncements);
