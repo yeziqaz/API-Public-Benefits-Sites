@@ -16,6 +16,17 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261104_02',
+    date: '2026-11-04',
+    title: '新增站点：缘起；未完/幕间/漫聊不再推荐',
+    content: '<strong>✅ 新增签到站：缘起</strong><br>' +
+      '每日签到 8～42 白银（100:1 换算），还有连续签到奖励和各种古风小游戏，很有古代江湖的感觉。可兑换角色卡解锁人物剧情，很有特色。<br>' +
+      '<a href="https://origin.nemodesk.top/sign-up?aff=DPr1" target="_blank" rel="noopener">https://origin.nemodesk.top/sign-up?aff=DPr1</a><br><br>' +
+      '<strong>⚠️ 未完 / 幕间 / 漫聊不再推荐</strong><br>' +
+      '签到额度只能当日使用无法攒签到，且主要是模型蠢蠢的，不再推荐。',
+    type: 'update',
+  },
+  {
     id: '20261104_01',
     date: '2026-11-04',
     title: '新增 4 个站子：未完 / 悠米 / 幕间 / 漫聊',
