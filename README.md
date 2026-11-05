@@ -19,7 +19,7 @@
 
 | 站点名称 | 适用范围 | 模型 | 每日签到 / 额度 | 注册方式 | 注册链接 | 备注 | 状态 | 最后检查 |
 | --- | --- | --- | --- | --- | --- | --- | :---: | --- |
-| [维云](#维云) | 日常聊天 ✅ Coding ✅（Claude Code / Codex 等多种格式可接入） | Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等 | 签到送 1 天订阅（5h 轮换），另有每日抽卡等 | GitHub / Google | [点击注册](https://vsllm.cc/register?aff=GT3Z) | 响应快，新手友好，各软件都有教程 | ✅ | 2026-10-26 |
+| [维云](#维云) | 日常聊天 ✅ Coding ✅（Claude Code / Codex 等多种格式可接入） | Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等 | 签到送 1 天订阅（5h 轮换），另有每日抽卡等 | GitHub / Google | [点击注册](https://vsllm.cc/register?aff=GT3Z) | 响应快（可用魔法，响应速度快；不开魔法会比较慢），新手友好，各软件都有教程 | ✅ | 2026-10-26 |
 | [晚晚舟](#晚晚舟) | 日常聊天 ✅ 另有编程专用站 | 主流模型都有，模型很全 | 不用邀请链接试吃 0.5，用邀请链接试吃 1；签到固定 1 额度（≈25 次小克 / 100 次哈基米）,需邀请满 5 人开启签到 | 注册即可 | [点击注册](https://wanwanzhou.top/register?aff=PECCV33UH8P4) | 很推荐，响应速度快；此链接为日常使用站 | ✅ | 2026-10-26 |
 | [慧慧云](#慧慧云) | 日常聊天 ✅ 另有编程专用站 | Gemini / DeepSeek / Claude | 充 5r 或邀请满 5 人可签到,签到 0.4～1 额度 | **暂时关闭注册,可蹲** | [点击注册](https://api.huihuiyun.top/register?aff=V4GLCX8SUJVP) | 很推荐,比较划算；此链接为日常使用站；开注册会同步更新；另有纯免费公益组（Grok4.7 / SenseNova-6.8-flash-lite 等） | 🔒 暂停注册 | 2026-10-26 |
 | [小力孩](#小力孩) | 日常聊天 ✅ Coding ✅（可一键接入多种客户端） | 模型类型比较全，涵盖生图、生视频类，DeepSeek V4.1 flash 免费开放无需积分调用 | 个人每日 500 万 Token + 每日共享池 1000 万 Token，每日可重置 3 次 | 注册即可 | [点击注册](https://ygxnhzy.cn/register?invite_code=NB9EX3XQ) | 很推荐；有代码模型也有文游专用模型 | ✅ | 2026-10-26 |
@@ -42,6 +42,7 @@
   - 每日签到 ✅：签到送一天订阅（5h 轮换）
   - 另有每日抽卡等额外配额获取方式
 - **亮点**：响应快、新手友好,各大软件都有对应的接入教程
+- **注意**：可用魔法，响应速度快；不开魔法会比较慢
 
 ### 晚晚舟
 
