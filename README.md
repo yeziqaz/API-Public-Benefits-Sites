@@ -25,7 +25,7 @@
 | [小力孩](#小力孩) | 日常聊天 ✅ Coding ✅（可一键接入多种客户端） | 模型类型比较全，涵盖生图、生视频类，DeepSeek V4.1 flash 免费开放无需积分调用 | 个人每日 500 万 Token + 每日共享池 1000 万 Token，每日可重置 3 次 | 注册即可 | [点击注册](https://ygxnhzy.cn/register?invite_code=NB9EX3XQ) | 很推荐；有代码模型也有文游专用模型 | ✅ | 2026-10-26 |
 | [Factorypub](#factorypub) | 日常聊天 ✅ Coding ✅ | Claude / DeepSeek / Grok / GLM / GPT 等 | 每日签到 | yaohuo / GitHub 账号 | [点击注册](https://factory.pub/sign-up?aff=7jcG) | 仅支持 yaohuo 或 GitHub 注册 | ✅ | 2026-10-26 |
 | [长春叙](#长春叙) | 日常聊天 ✅ Coding ✅ | Gemini / Claude / DeepSeek / Kimi 等 | 每日签到领额度 | 注册即可 | [点击注册](https://changchunxu.xyz/sign-up?aff=nS1O) | 注册送 4.5 额度 | ✅ | 2026-10-26 |
-| [AnyRouter](#anyrouter) | 仅 Codex / Claude Code | Claude 系列、GPT 系列 | 注册 150+,每日签到 25 | GitHub / edu 邮箱 | [点击注册](https://anyrouter.top/register?aff=j0lk) | 无充值入口；人多,高峰期需错峰 | ⚠️ 需错峰 | 2026-10-26 |
+| [AnyRouter](#anyrouter) | 可接入所有智能体客户端（支持多种格式） | Claude 系列、GPT 系列 | 注册 150+,每日签到 25 | GitHub / edu 邮箱（强推所有有学生邮箱、能够注册的去注册，即使现在可能用不到 coding 也可以先去注册一下，纯公益，真的很推荐） | [点击注册](https://anyrouter.top/register?aff=j0lk) | 纯公益，真的很推荐；需魔法；人多，基本上只有月初能 roll 出来，最多到月中，月底不行 | ✅ | 2026-10-26 |
 | [ShareChat](#sharechat) | 只支持接入 Codex | GPT-5.6 sol | 签到额度当日有效,每 3h 轮换恢复 | QQ 邮箱 | [点击注册](https://new.sharedchat.cc/list/#/register?i=TgQc3) | 用量受全站和 3h 窗口限制 | ✅ | 2026-10-26 |
 
 ---
@@ -64,7 +64,7 @@
 - **福利**：
   - 充 5r 或邀请满 5 人可开启签到
   - 签到可得 0.4～1 额度
-- **纯免费公益组**：有 Grok4.7、SenseNova-6.8-flash-lite（商汤日日新）等模型可用
+- **纯免费公益组**：is Grok4.7、SenseNova-6.8-flash-lite（商汤日日新）等模型可用
 - **亮点**：很推荐,比较划算
 
 ### 小力孩
@@ -93,11 +93,14 @@
 ### AnyRouter
 
 - **注册链接**：https://anyrouter.top/register?aff=j0lk
-- **注册方式**：**GitHub** 账号或 **edu 邮箱**
-- **适用范围**：仅 Codex / Claude Code,无充值入口
+- **注册方式**：**GitHub** 账号或 **edu 邮箱**（🔥 **强推**：所有有学生邮箱、能够注册的都去注册！即使现在可能用不到 coding 也可以先去注册一下，纯公益，真的很推荐）
+- **适用范围**：可接入所有智能体客户端（支持多种格式）
 - **模型**：Claude 系列、GPT 系列
 - **福利**：注册 150+,每日签到 25
-- **注意**：人多,高峰期可能用不了,建议**错峰使用**；除此之外没什么缺点
+- **注意**：
+  - 纯公益，真的很推荐
+  - 需要魔法
+  - 由于站子人太多，基本上只有**月初**可以 roll 出来，最多到月中，**月底**就不太行了
 
 ### ShareChat
 
