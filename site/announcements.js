@@ -18,6 +18,24 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261107_01',
+    date: '2026-11-07',
+    title: '新增签到站 piu酱、橘子汽水；77625路由暂不推荐；奶酪公益站注册码掉落',
+    content: '<strong>✅ 新增签到站：piu酱</strong><br>' +
+      '邀请链接注册 +8 额度，每日签到固定 1 额度，可攒签到。还有赌狗小游戏（转盘、银行），也有 cat 凭证池。模型有太子（Gemini 4）/ 3.8flash、Claude Opus 5.5、Qwen Image 2.1 等。<br>' +
+      '<a href="https://piu.du4s.com/sign-up?aff=BmFw" target="_blank" rel="noopener">https://piu.du4s.com/sign-up?aff=BmFw</a><br><br>' +
+      '<strong>✅ 新增签到站：橘子汽水</strong><br>' +
+      '邀请链接注册 +0.5 额度，可攒签到。模型较多，集中在 Gemini 和 Claude，有太子，此外还有 Grok 模型，适合 airp。<br>' +
+      '<a href="https://juziqishui.net/register?aff=yX00" target="_blank" rel="noopener">https://juziqishui.net/register?aff=yX00</a><br><br>' +
+      '<strong>⚠️ 77625路由站暂不推荐注册</strong><br>' +
+      '站子抗压不行，注册人数远超站子可承受能力范围，等站子稳定再说。<br><br>' +
+      '<strong>🎁 奶酪公益站注册码掉落</strong><br>' +
+      '掉落一枚奶酪公益站注册码，用完即止！<br>' +
+      '注册链接：<a href="https://nailao.biz/sign-up?aff=kQwD" target="_blank" rel="noopener">https://nailao.biz/sign-up?aff=kQwD</a><br>' +
+      '注册码：<code>3LFESL</code>',
+    type: 'newsite',
+  },
+  {
     id: '20261106_01',
     date: '2026-11-06',
     title: '新增纯公益站 catAPI；晚晚舟重新开放注册',
@@ -65,7 +83,7 @@ const ANNOUNCEMENTS = [
       '签到需要加 QQ 群；可在站内调整预设，且已有小手机、酒馆预设。<br>' +
       '<a href="https://meeyo.org/register?ref=REF007786" target="_blank" rel="noopener">https://meeyo.org/register?ref=REF007786</a><br><br>' +
       '<strong>幕间公益站</strong>（人机恋 airp）<br>' +
-      '注册礼 40 幕票，长期有效；邀请人 +40 幕票，好友额外 +60 幕票，邀请奖励长期有效。角色卡仍留在你自己的客户端。<br>' +
+      '注册礼 40 幕票，长期有效；邀请人 +40 幕票，好友额外 +60 幕票，邀请奖励长期有效。角色卡仍留在你自己的客户端。和未完、漫聊是一家的，都适用于人机恋 airp。<br>' +
       '<a href="https://mujian.online/register?aff=000345" target="_blank" rel="noopener">https://mujian.online/register?aff=000345</a><br><br>' +
       '<strong>漫聊公益站</strong>（人机恋 airp）<br>' +
       '注册礼 60 聊豆，长期有效；邀请人 +120 聊豆，好友额外 +120 聊豆，邀请奖励长期有效。<br>' +
