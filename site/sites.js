@@ -84,6 +84,16 @@ const SITES = [
     note: '与其说它是一个 API 站子，不如说是一个免费 aichrp 网站，有完整的可玩的角色卡，也可自己创建角色卡，还有小手机和语音通话等',
     status: 'ok',
   },
+  {
+    name: 'catAPI',
+    category: 'pure',
+    condition: '',
+    link: 'https://api.catcat.top/sign-up?aff=kBJL',
+    models: '模型比较少，DeepSeek v4.1、Gemini 4/3.8、GPT 6.1，其他的都是豆包千问之类的',
+    quota: '签到送 50 额度（太子 4 额度 1 次，如果吃其他的更是基本上不用在意额度爽吃就行）',
+    note: '纯公益站',
+    status: 'ok',
+  },
 
   /* ==================== 签到站 ==================== */
   {
@@ -123,7 +133,7 @@ const SITES = [
     link: 'https://mujian.online/register?aff=000345',
     scope: '人机恋 / airp',
     quota: '注册礼 40 幕票，长期有效\n邀请人 +40 幕票，好友额外 +60 幕票，邀请奖励长期有效',
-    note: '给你留一张幕间的入场券。角色卡仍留在你自己的客户端。和未完、漫聊是一家的，都适用于人机恋 airp',
+    note: '给你留一張幕间的入场券。角色卡仍留在你自己的客户端。和未完、漫聊是一家的，都适用于人机恋 airp',
     warn: '签到额度只能当日使用无法攒签到，且主要是模型蠢蠢的，不再推荐',
     status: 'ok',
   },
@@ -134,7 +144,7 @@ const SITES = [
     link: 'https://manliao.cyou/register?aff=000204',
     scope: '人机恋 / airp',
     quota: '注册礼 60 聊豆，长期有效\n邀请人 +120 聊豆，好友额外 +120 聊豆，邀请奖励长期有效',
-    note: '和未完、幕间是一家的，都适用于人机恋 airp',
+    note: '和未完、漫聊是一家的，都适用于人机恋 airp',
     warn: '签到额度只能当日使用无法攒签到，且主要是模型蠢蠢的，不再推荐',
     status: 'ok',
   },
@@ -194,6 +204,7 @@ const SITES = [
     quota: '签到固定给 1，很划算：按次一次签到能吃 100 次哈基米、25 次克，按量会更划算\n不用邀请链接试吃 0.5，用邀请链接试吃 1',
     note: '由于前期宣传拉人签到很败好感，除此之外很推荐',
     status: 'ok',
+    statusText: '开放注册至 11 月 11 日',
   },
   {
     name: '慧慧云',
