@@ -18,6 +18,18 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261106_01',
+    date: '2026-11-06',
+    title: '新增纯公益站 catAPI；晚晚舟重新开放注册',
+    content: '<strong>✅ 新增纯公益站：catAPI</strong><br>' +
+      '签到送 50 额度（太子 4 额度 1 次，如果吃其他的更是基本上不用在意额度爽吃就行）。模型比较少，有 DeepSeek v4.1、Gemini 4/3.8、GPT 6.1，其他的都是豆包、千问之类的。<br>' +
+      '<a href="https://api.catcat.top/sign-up?aff=kBJL" target="_blank" rel="noopener">https://api.catcat.top/sign-up?aff=kBJL</a><br><br>' +
+      '<strong>🔓 晚晚舟重新开放注册（开放至 11 月 11 日）</strong><br>' +
+      '之前是邀请 5 人开永久签到，后面又变成了 10 人或充 20，争议蛮大的，很多人骂。不过开签到后每日固定送 1 额度，按次能吃 25 次小克或 100 次哈基米，有条件的还是可以冲一波。<br>' +
+      '<a href="https://wanwanzhou.top/register?aff=PECCV33UH8P4" target="_blank" rel="noopener">https://wanwanzhou.top/register?aff=PECCV33UH8P4</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261105_01',
     date: '2026-11-05',
     title: '慧慧云暂停注册；nodex 暂不推荐',
