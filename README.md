@@ -22,6 +22,8 @@
 | [catAPI](#catapi) | 纯公益站 | DeepSeek v4.1、Gemini 4/3.8、GPT 6.1 等（模型较少，豆包千问等） | 签到送 50 额度（太子 4 额度 1 次，爽吃） | 注册即可 | [点击注册](https://api.catcat.top/sign-up?aff=kBJL) | 纯公益站，非常推荐 | ✅ | 2026-11-06 |
 | [维云](#维云) | 日常聊天 ✅ Coding ✅（Claude Code / Codex 等多种格式可接入） | Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等 | 签到送 1 天订阅（5h 轮换），另有每日抽卡等 | GitHub / Google | [点击注册](https://vsllm.cc/register?aff=GT3Z) | 响应快（可用魔法，响应速度快；不开魔法会比较慢），新手友好，各软件都有教程 | ✅ | 2026-10-26 |
 | [晚晚舟](#晚晚舟) | 日常聊天 ✅ 另有编程专用站 | 主流模型都有，模型很全 | 不用邀请链接试吃 0.5，用邀请链接试吃 1；签到固定 1 额度（≈25 次小克 / 100 次哈基米）,需邀请满 5 人开启签到 | 注册即可（开放至 11 月 11 日） | [点击注册](https://wanwanzhou.top/register?aff=PECCV33UH8P4) | 很推荐，响应速度快；此链接为日常使用站 | ✅ | 2026-10-26 |
+| [piu酱](#piu酱) | 签到站 | 太子（Gemini 4）/ 3.8flash、Claude Opus 5.5、Qwen Image 2.1 等 | 邀请链接注册 +8，每日签到固定 1，可攒签到；有赌狗小游戏（转盘、银行），也有 cat 凭证池 | 注册即可 | [点击注册](https://piu.du4s.com/sign-up?aff=BmFw) | 新签到站 | ✅ | 2026-11-07 |
+| [橘子汽水](#橘子汽水) | 适合 airp | 模型多，集中在 Gemini 和 Claude，有太子，此外还有 Grok 模型 | 邀请链接注册 +0.5，可攒签到 | 注册即可 | [点击注册](https://juziqishui.net/register?aff=yX00) | 适合 airp | ✅ | 2026-11-07 |
 | [慧慧云](#慧慧云) | 日常聊天 ✅ 另有编程专用站 | Gemini / DeepSeek / Claude | 充 5r 或邀请满 5 人可签到,签到 0.4～1 额度 | **暂时关闭注册,可蹲** | [点击注册](https://api.huihuiyun.top/register?aff=V4GLCX8SUJVP) | 很推荐,比较划算；此链接为日常使用站；开注册会同步更新；另有纯免费公益组（Grok4.7 / SenseNova-6.8-flash-lite 等） | 🔒 暂停注册 | 2026-10-26 |
 | [小力孩](#小力孩) | 日常聊天 ✅ Coding ✅（可一键接入多种客户端） | 模型类型比较全，涵盖生图、生视频类，DeepSeek V4.1 flash 免费开放无需积分调用 | 个人每日 500 万 Token + 每日共享池 1000 万 Token，每日可重置 3 次 | 注册即可 | [点击注册](https://ygxnhzy.cn/register?invite_code=NB9EX3XQ) | 很推荐；有代码模型也有文游专用模型 | ✅ | 2026-10-26 |
 | [Factorypub](#factorypub) | 日常聊天 ✅ Coding ✅ | Claude / DeepSeek / Grok / GLM / GPT 等 | 每日签到 | yaohuo / GitHub 账号 | [点击注册](https://factory.pub/sign-up?aff=7jcG) | 仅支持 yaohuo 或 GitHub 注册 | ✅ | 2026-10-26 |
@@ -60,10 +62,29 @@
 - **适用范围**：日常聊天 ✅,另有编程专用站（此链接为日常使用站）
 - **模型**：主流模型都有,模型很全
 - **福利**：
-  - 不用邀请链接注册试吃 0.5,用邀请链接试吃 1
+  - 不用邀请链接试吃 0.5,用邀请链接试吃 1
   - 每日签到固定 1 额度（1 额度 ≈ 25 次小克 / 100 次哈基米）
   - 签到需**邀请满 5 人**才能开启（近期开放注册中）
 - **亮点**：很推荐,响应速度快
+
+### piu酱
+
+- **注册链接**：https://piu.du4s.com/sign-up?aff=BmFw
+- **适用范围**：签到站
+- **模型**：太子（Gemini 4）/ 3.8flash、Claude Opus 5.5、Qwen Image 2.1 等
+- **福利**：
+  - 邀请链接注册 +8 额度
+  - 每日签到固定 1 额度，可攒签到
+  - 还有赌狗小游戏（转盘、银行），也有 cat 凭证池
+- **亮点**：新签到站
+
+### 橘子汽水
+
+- **注册链接**：https://juziqishui.net/register?aff=yX00
+- **适用范围**：适合 airp
+- **模型**：模型多，集中在 Gemini 和 Claude，有太子，此外还有 Grok 模型
+- **福利**：邀请链接注册 +0.5 额度，可攒签到
+- **亮点**：适合 airp
 
 ### 慧慧云
 
