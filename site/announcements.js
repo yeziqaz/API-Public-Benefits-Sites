@@ -18,6 +18,20 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261108_01',
+    date: '2026-11-08',
+    title: '💬 API站子分享交流群；新增签到站 ruachat、纯公益站启源星',
+    content: '<strong>💬 API站子分享交流群</strong><br>' +
+      '欢迎加入 API 站子分享交流群：<code>1131821929</code>，一起交流探讨、获取最新站子信息。<br><br>' +
+      '<strong>✅ 新增签到站：ruachat</strong><br>' +
+      '邀请码 <code>lvP3</code>（注册链接：<a href="https://api.rua.chat/sign-up?aff=lvP3" target="_blank" rel="noopener">https://api.rua.chat/sign-up?aff=lvP3</a>）。<br>' +
+      '最近注册有福利礼包（送超多次数卡，很值）。签到送 30 积分 + 10 rua 币（积分用来买次卡，rua 币直接消费）。站子画风可爱、活动与玩法丰富，内置公益云酒馆与专属聊天，完全适合 airp 新手。缺点是塞的东西太多，导致进站速度慢了点。<br><br>' +
+      '<strong>✅ 新增纯公益站：启源星</strong><br>' +
+      '无充值入口，GitHub 登录。模型有 Claude 5.5、GLM 5.3、Gemini 3.8 flash、GPT image 2 等。<br>' +
+      '<a href="https://chuan.sylu.cc/sign-up?aff=LTlk" target="_blank" rel="noopener">https://chuan.sylu.cc/sign-up?aff=LTlk</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261107_01',
     date: '2026-11-07',
     title: '新增签到站 piu酱、橘子汽水；77625路由暂不推荐；奶酪公益站注册码掉落',
