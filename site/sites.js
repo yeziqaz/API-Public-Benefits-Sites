@@ -95,6 +95,16 @@ const SITES = [
     note: '纯公益站',
     status: 'ok',
   },
+  {
+    name: '启源星',
+    category: 'pure',
+    condition: '',
+    link: 'https://chuan.sylu.cc/sign-up?aff=LTlk',
+    models: 'Claude 5.5、GLM 5.3、Gemini 3.8 flash、GPT image 2 等',
+    register: 'GitHub 登录',
+    note: '无充值入口，纯公益站',
+    status: 'ok',
+  },
 
   /* ==================== 签到站 ==================== */
   {
