@@ -116,6 +116,15 @@ const SITES = [
     note: '纯公益站，响应速度快',
     status: 'ok',
   },
+  {
+    name: '小水管',
+    category: 'pure',
+    condition: '',
+    link: 'https://api.pie-xian.com/sign-up?aff=aDz0eZ',
+    models: 'DeepSeek v4.1、Gemini 3.1/3.5 flash、生图生视频模型、语音模型等',
+    note: '公益站，爽玩各种模型',
+    status: 'ok',
+  },
 
   /* ==================== 签到站 ==================== */
   {
@@ -312,6 +321,16 @@ const SITES = [
     models: '模型很全',
     quota: '签到给得比较大方，可以攒签到然后爽吃',
     note: '新签到站',
+    status: 'ok',
+  },
+  {
+    name: 'zooAPI',
+    category: 'checkin',
+    condition: '',
+    link: 'https://zooapi.gfkfqtcx.com/sign-up?aff=Qwse',
+    models: '模型很全（参考太子 0.08、小克 0.06 等）',
+    quota: '注册送 0.5，签到送得特别多（签到比注册送的还多）',
+    note: '新签到站，额度非常大方',
     status: 'ok',
   },
   {
