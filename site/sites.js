@@ -41,20 +41,6 @@ const CATEGORIES = [
 const SITES = [
   /* ==================== 纯公益站 ==================== */
   {
-    name: '77625路由',
-    category: 'pure',
-    condition: '',
-    link: 'https://ly.77625.xyz/#/wallet',
-    linkText: '前往站点（注册时填邀请码）',
-    inviteCode: 'Q7FTXMLBAQ',
-    quota: '注册、签到都有积分\n填写邀请码可以额外获得 3000 积分',
-    register: '站长手动审核，所以注册会比较慢；会有一个七天审核工单（大概是检验是不是真人玩家），之后就能解锁全部模型',
-    note: '纯公益站，送的额度是真的很多；模型虽然不多，但是该有的也都有了，哪怕是 Coding 额度也是绰绰有余。不强制要求推广，没有附加条件',
-    warn: '这个站子不能开梯子玩',
-    status: 'unstable',
-    statusText: '抗压不行，暂不推荐',
-  },
-  {
     name: 'Oz',
     category: 'pure',
     condition: '',
@@ -124,6 +110,20 @@ const SITES = [
     models: 'DeepSeek v4.1、Gemini 3.1/3.5 flash、生图生视频模型、语音模型等',
     note: '公益站，爽玩各种模型',
     status: 'ok',
+  },
+  {
+    name: '77625路由',
+    category: 'pure',
+    condition: '',
+    link: 'https://ly.77625.xyz/#/wallet',
+    linkText: '前往站点（注册时填邀请码）',
+    inviteCode: 'Q7FTXMLBAQ',
+    quota: '注册、签到都有积分\n填写邀请码可以额外获得 3000 积分',
+    register: '站长手动审核，所以注册会比较慢；会有一个七天审核工单（大概是检验是不是真人玩家），之后就能解锁全部模型',
+    note: '纯公益站，送的额度是真的很多；模型虽然不多，但是该有的也都有了，哪怕是 Coding 额度也是绰绰有余。不强制要求推广，没有附加条件',
+    warn: '这个站子不能开梯子玩（有瓜，抗压不行，暂不推荐）',
+    status: 'unstable',
+    statusText: '抗压不行，有瓜，不推荐',
   },
 
   /* ==================== 签到站 ==================== */
@@ -483,7 +483,7 @@ const SITES = [
     models: 'GPT-5.6 sol',
     quota: '签到额度当日有效，每 3h 轮换恢复',
     register: 'QQ 邮箱',
-    note: '用量受全站和 3h 窗口限制',
+    note: '用量受全Stat and 3h 窗口限制',
     status: 'ok',
   },
 ];
