@@ -18,6 +18,24 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261109_01',
+    date: '2026-11-09',
+    title: '💬 API站子分享交流群；新增 HFAPI、汐的API、织云；catAPI 停止注册',
+    content: '<strong>💬 API站子分享交流群</strong><br>' +
+      '欢迎加入 API 站子分享交流群：<code>1131821929</code>，一起交流探讨、获取最新站子信息。<br><br>' +
+      '<strong>✅ 新增纯公益站：HFAPI</strong><br>' +
+      '模型有 DeepSeek v4.1 flash、Kimi、Qwen 等，响应速度快。注意签到额度需要在 15 天内用完。<br>' +
+      '<a href="https://hfapi.cloud/?invite=INVDE809159" target="_blank" rel="noopener">https://hfapi.cloud/?invite=INVDE809159</a><br><br>' +
+      '<strong>✅ 新增签到站：汐的API</strong><br>' +
+      '公益站，注册得 15 代币，签到 1～5 代币。有 Claude / Gemini / DeepSeek，不过模型成功率不算高。<br>' +
+      '<a href="https://api.203236.xyz/sign-up?aff=iBHd" target="_blank" rel="noopener">https://api.203236.xyz/sign-up?aff=iBHd</a><br><br>' +
+      '<strong>✅ 新增签到站：织云</strong><br>' +
+      '模型很全，签到给得比较大方，可以攒签到然后爽吃。<br>' +
+      '<a href="https://zhiyunapi.cc/register?aff=jVwg" target="_blank" rel="noopener">https://zhiyunapi.cc/register?aff=jVwg</a><br><br>' +
+      '<strong>🔒 catAPI 已停止注册</strong>',
+    type: 'newsite',
+  },
+  {
     id: '20261108_01',
     date: '2026-11-08',
     title: '💬 API站子分享交流群；新增签到站 ruachat、纯公益站启源星',
