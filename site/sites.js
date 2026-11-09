@@ -93,7 +93,8 @@ const SITES = [
     models: '模型比较少，DeepSeek v4.1、Gemini 4/3.8、GPT 6.1，其他的都是豆包千问之类的',
     quota: '签到送 50 额度（太子 4 额度 1 次，如果吃其他的更是基本上不用在意额度爽吃就行）',
     note: '纯公益站',
-    status: 'ok',
+    status: 'closed',
+    statusText: '停止注册',
   },
   {
     name: '启源星',
@@ -103,6 +104,16 @@ const SITES = [
     models: 'Claude 5.5、GLM 5.3、Gemini 3.8 flash、GPT image 2 等',
     register: 'GitHub 登录',
     note: '无充值入口，纯公益站',
+    status: 'ok',
+  },
+  {
+    name: 'HFAPI',
+    category: 'pure',
+    condition: '',
+    link: 'https://hfapi.cloud/?invite=INVDE809159',
+    models: 'DeepSeek v4.1 flash、Kimi、Qwen 等',
+    quota: '签到额度需在 15 天内用完',
+    note: '纯公益站，响应速度快',
     status: 'ok',
   },
 
@@ -294,6 +305,26 @@ const SITES = [
     status: 'ok',
   },
   {
+    name: '织云',
+    category: 'checkin',
+    condition: '',
+    link: 'https://zhiyunapi.cc/register?aff=jVwg',
+    models: '模型很全',
+    quota: '签到给得比较大方，可以攒签到然后爽吃',
+    note: '新签到站',
+    status: 'ok',
+  },
+  {
+    name: '汐的API',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api.203236.xyz/sign-up?aff=iBHd',
+    models: 'Claude / Gemini / DeepSeek 等',
+    quota: '注册得 15 代币，签到 1～5 代币',
+    note: '公益站，但模型成功率不算高',
+    status: 'ok',
+  },
+  {
     name: '芙卡卡',
     category: 'nocheckin',
     condition: '',
@@ -375,7 +406,7 @@ const SITES = [
     status: 'ok',
   },
 
-  /* ==================== 无签到站 ==================== */
+  /* ==================== 无签-1站 ==================== */
   {
     name: '小力孩',                    // TODO：分类待确认
     category: 'nocheckin',
