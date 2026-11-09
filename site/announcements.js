@@ -18,6 +18,20 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261109_02',
+    date: '2026-11-09',
+    title: '💬 API站子分享交流群；新增签到站 zooAPI、纯公益站小水管',
+    content: '<strong>💬 API站子分享交流群</strong><br>' +
+      '欢迎加入 API 站子分享交流群：<code>1131821929</code>，一起交流探讨、获取最新站子信息。<br><br>' +
+      '<strong>✅ 新增签到站：zooAPI</strong><br>' +
+      '注册送 0.5，签到送得特别多（签到比注册送的还多），模型很全（参考太子 0.08、小克 0.06），非常大方。<br>' +
+      '<a href="https://zooapi.gfkfqtcx.com/sign-up?aff=Qwse" target="_blank" rel="noopener">https://zooapi.gfkfqtcx.com/sign-up?aff=Qwse</a><br><br>' +
+      '<strong>✅ 新增纯公益站：小水管</strong><br>' +
+      '可爽玩 DeepSeek v4.1、Gemini 3.1/3.5 flash，还有生图生视频模型以及语音模型等。<br>' +
+      '<a href="https://api.pie-xian.com/sign-up?aff=aDz0eZ" target="_blank" rel="noopener">https://api.pie-xian.com/sign-up?aff=aDz0eZ</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261109_01',
     date: '2026-11-09',
     title: '💬 API站子分享交流群；新增 HFAPI、汐的API、织云；catAPI 停止注册',
@@ -57,7 +71,7 @@ const ANNOUNCEMENTS = [
       '邀请链接注册 +8 额度，每日签到固定 1 额度，可攒签到。还有赌狗小游戏（转盘、银行），也有 cat 凭证池。模型有太子（Gemini 4）/ 3.8flash、Claude Opus 5.5、Qwen Image 2.1 等。<br>' +
       '<a href="https://piu.du4s.com/sign-up?aff=BmFw" target="_blank" rel="noopener">https://piu.du4s.com/sign-up?aff=BmFw</a><br><br>' +
       '<strong>✅ 新增签到站：橘子汽水</strong><br>' +
-      '邀请链接注册 +0.5 额度，可攒签到。模型较多，集中在 Gemini 和 Claude，有太子，此外还有 Grok 模型，适合 airp。<br>' +
+      '邀请链接注册 +0.5 额度，可攒签到.模型较多，集中在 Gemini 和 Claude，有太子，此外还有 Grok 模型，适合 airp。<br>' +
       '<a href="https://juziqishui.net/register?aff=yX00" target="_blank" rel="noopener">https://juziqishui.net/register?aff=yX00</a><br><br>' +
       '<strong>⚠️ 77625路由站暂不推荐注册</strong><br>' +
       '站子抗压不行，注册人数远超站子可承受能力范围，等站子稳定再说。<br><br>' +
@@ -100,7 +114,7 @@ const ANNOUNCEMENTS = [
     content: '<strong>✅ 新增签到站：缘起</strong><br>' +
       '每日签到 8～42 白银（100:1 换算），还有连续签到奖励和各种古风小游戏，很有古代江湖的感觉。可兑换角色卡解锁人物剧情，很有特色。<br>' +
       '<a href="https://origin.nemodesk.top/sign-up?aff=DPr1" target="_blank" rel="noopener">https://origin.nemodesk.top/sign-up?aff=DPr1</a><br><br>' +
-      '<strong>⚠️ 未完 / 幕间 / 漫聊不再推荐</strong><br>' +
+      '<strong>⚠️ 未完 / 漫聊不再推荐</strong><br>' +
       '签到额度只能当日使用无法攒签到，且主要是模型蠢蠢的，不再推荐。',
     type: 'update',
   },
