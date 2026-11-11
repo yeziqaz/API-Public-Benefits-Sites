@@ -100,7 +100,9 @@ const SITES = [
     models: 'DeepSeek v4.1 flash、Kimi、Qwen 等',
     quota: '签到额度需在 15 天内用完',
     note: '纯公益站，响应速度快',
-    status: 'ok',
+    warn: '不推荐：要去申请才能用额度',
+    status: 'unstable',
+    statusText: '不推荐',
   },
   {
     name: '小水管',
@@ -300,6 +302,15 @@ const SITES = [
     status: 'ok',
   },
   {
+    name: '初恋',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api.hicode.me/sign-up?aff=ZKYc',
+    quota: '注册送 60，签到 10 左右（参考：3.8flash 是 3，太子 10）',
+    note: '新签到站，额度大方',
+    status: 'ok',
+  },
+  {
     name: '织云',
     category: 'checkin',
     condition: '',
@@ -315,8 +326,8 @@ const SITES = [
     condition: '',
     link: 'https://zooapi.gfkfqtcx.com/sign-up?aff=Qwse',
     models: '模型很全（参考太子 0.08、小克 0.06 等）',
-    quota: '注册送 0.5，签到送得特别多（签到比注册送的还多）',
-    note: '新签到站，额度非常大方',
+    quota: '注册送 0.5，签到 0.1 左右',
+    note: '新签到站，额度比较大方',
     status: 'ok',
   },
   {
@@ -469,7 +480,7 @@ const SITES = [
     models: 'GPT-5.6 sol',
     quota: '签到额度当日有效，每 3h 轮换恢复',
     register: 'QQ 邮箱',
-    note: '用量受全Stat and 3h 窗口限制',
+    note: '用量受全站和 3h 窗口限制',
     status: 'ok',
   },
 ];
