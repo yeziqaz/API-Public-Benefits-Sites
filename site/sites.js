@@ -321,6 +321,18 @@ const SITES = [
     status: 'ok',
   },
   {
+    name: '南北绿豆',
+    category: 'checkin',
+    condition: '进群报 ID 审核解封后才能用',
+    link: 'https://98ntl.com/sign-up?aff=ZPnJ',
+    quota: '试吃 1r，每日签到 0.1～1\n12 号太子限免一天',
+    register: '注册后会封号，需要进通知群（1131935290）报 ID 审核解封',
+    note: '新签到站，太子限免当天可以试吃',
+    warn: '注册后默认封号，务必进通知群 1131935290 报 ID 审核解封',
+    status: 'ok',
+    statusText: '需进群解封',
+  },
+  {
     name: '织云',
     category: 'checkin',
     condition: '',
