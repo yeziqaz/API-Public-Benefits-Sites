@@ -18,6 +18,19 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261111_02',
+    date: '2026-11-11',
+    title: '💬 API站子分享交流群；新增签到站南北绿豆',
+    content: '<strong>💬 API站子分享交流群</strong><br>' +
+      '欢迎加入 API 站子分享交流群：<code>1131821929</code>，一起交流探讨、获取最新站子信息。<br><br>' +
+      '<strong>✅ 新增签到站：南北绿豆</strong><br>' +
+      '试吃 1r，每日签到 0.1～1。<br>' +
+      '<strong>⚠️ 注意</strong>：注册后会被封号，需要进通知群 <code>1131935290</code> 报 ID 审核解封，解封后才能用。<br>' +
+      '🎁 <strong>12 号太子限免一天</strong>，可以趁这天去试吃。<br>' +
+      '<a href="https://98ntl.com/sign-up?aff=ZPnJ" target="_blank" rel="noopener">https://98ntl.com/sign-up?aff=ZPnJ</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261111_01',
     date: '2026-11-11',
     title: '💬 API站子分享交流群；新增签到站初恋、无签到站 AnAn；HFAPI 不推荐',
