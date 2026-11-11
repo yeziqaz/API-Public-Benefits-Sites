@@ -113,6 +113,16 @@ const SITES = [
     note: '公益站，爽玩各种模型',
     status: 'ok',
   },
+  {
+    name: '汐的API',
+    category: 'pure',
+    condition: '',
+    link: 'https://api.203236.xyz/sign-up?aff=iBHd',
+    models: 'Claude / Gemini / DeepSeek 等',
+    quota: '注册得 15 代币，签到 1～5 代币',
+    note: '公益站，但模型成功率不算高',
+    status: 'ok',
+  },
 
   /* ==================== 签到站 ==================== */
   {
@@ -331,16 +341,6 @@ const SITES = [
     status: 'ok',
   },
   {
-    name: '汐的API',
-    category: 'checkin',
-    condition: '',
-    link: 'https://api.203236.xyz/sign-up?aff=iBHd',
-    models: 'Claude / Gemini / DeepSeek 等',
-    quota: '注册得 15 代币，签到 1～5 代币',
-    note: '公益站，但模型成功率不算高',
-    status: 'ok',
-  },
-  {
     name: '芙卡卡',
     category: 'nocheckin',
     condition: '',
@@ -443,6 +443,16 @@ const SITES = [
     models: '模型虽然比较少，但是全，DeepSeek / claude / gpt / gemini / glm 等，有太子可吃',
     quota: '不可签到，注册送 0.5 币',
     note: '参考：gemini0.03/次',
+    status: 'ok',
+  },
+
+  {
+    name: 'AnAn',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://api.waianan.com/sign-up?aff=4I00',
+    models: '薄甲 3.8 免费',
+    quota: '注册送 0.5，无签到',
     status: 'ok',
   },
 
