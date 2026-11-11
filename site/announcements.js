@@ -18,6 +18,25 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261111_01',
+    date: '2026-11-11',
+    title: '💬 API站子分享交流群；新增签到站初恋、无签到站 AnAn；HFAPI 不推荐',
+    content: '<strong>💬 API站子分享交流群</strong><br>' +
+      '欢迎加入 API 站子分享交流群：<code>1131821929</code>，一起交流探讨、获取最新站子信息。<br><br>' +
+      '<strong>✅ 新增签到站：初恋</strong><br>' +
+      '注册送 60，签到 10 左右（参考：3.8flash 是 3，太子 10），额度大方。<br>' +
+      '<a href="https://api.hicode.me/sign-up?aff=ZKYc" target="_blank" rel="noopener">https://api.hicode.me/sign-up?aff=ZKYc</a><br><br>' +
+      '<strong>✅ 新增无签到站：AnAn</strong><br>' +
+      '注册送 0.5，薄甲 3.8 免费，无签到。<br>' +
+      '<a href="https://api.waianan.com/sign-up?aff=4I00" target="_blank" rel="noopener">https://api.waianan.com/sign-up?aff=4I00</a><br><br>' +
+      '<strong>⚠️ HFAPI 不推荐</strong><br>' +
+      '要去申请才能用额度。<br><br>' +
+      '<strong>📝 其他调整</strong><br>' +
+      '• zooAPI 签到额度更新为 0.1 左右；<br>' +
+      '• 汐的API 归类为公益站（不是签到站）。',
+    type: 'newsite',
+  },
+  {
     id: '20261109_02',
     date: '2026-11-09',
     title: '💬 API站子分享交流群；新增签到站 zooAPI、纯公益站小水管',
