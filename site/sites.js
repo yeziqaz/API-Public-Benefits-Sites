@@ -113,16 +113,6 @@ const SITES = [
     note: '公益站，爽玩各种模型',
     status: 'ok',
   },
-  {
-    name: '汐的API',
-    category: 'pure',
-    condition: '',
-    link: 'https://api.203236.xyz/sign-up?aff=iBHd',
-    models: 'Claude / Gemini / DeepSeek 等',
-    quota: '注册得 15 代币，签到 1～5 代币',
-    note: '公益站，但模型成功率不算高',
-    status: 'ok',
-  },
 
   /* ==================== 签到站 ==================== */
   {
