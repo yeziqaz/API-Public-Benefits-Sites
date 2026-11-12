@@ -18,6 +18,17 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261112_01',
+    date: '2026-11-12',
+    title: '💬 API站子分享交流群；新增签到站梧桐小院',
+    content: '<strong>💬 API站子分享交流群</strong><br>' +
+      '欢迎加入 API 站子分享交流群：<code>1131821929</code>，一起交流探讨、获取最新站子信息。<br><br>' +
+      '<strong>✅ 新增签到站：梧桐小院</strong><br>' +
+      '现在有免费的鸡蛋 3.8 可以吃，每日签到，签到额度可以囤起来；进群可领试吃 1.5，群号见公告。<br>' +
+      '<a href="https://api2.wtxiaoyuan.top/register?aff=yuYA" target="_blank" rel="noopener">https://api2.wtxiaoyuan.top/register?aff=yuYA</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261111_02',
     date: '2026-11-11',
     title: '💬 API站子分享交流群；新增签到站南北绿豆',
@@ -45,7 +56,8 @@ const ANNOUNCEMENTS = [
       '<strong>⚠️ HFAPI 不推荐</strong><br>' +
       '要去申请才能用额度。<br><br>' +
       '<strong>📝 其他调整</strong><br>' +
-      '• zooAPI 签到额度更新为 0.1 左右。',
+      '• zooAPI 签到额度更新为 0.1 左右；<br>' +
+      '• 汐的API 归类为公益站（不是签到站）。',
     type: 'newsite',
   },
   {
@@ -65,12 +77,15 @@ const ANNOUNCEMENTS = [
   {
     id: '20261109_01',
     date: '2026-11-09',
-    title: '💬 API站子分享交流群；新增 HFAPI、织云；catAPI 停止注册',
+    title: '💬 API站子分享交流群；新增 HFAPI、汐的API、织云；catAPI 停止注册',
     content: '<strong>💬 API站子分享交流群</strong><br>' +
       '欢迎加入 API 站子分享交流群：<code>1131821929</code>，一起交流探讨、获取最新站子信息。<br><br>' +
       '<strong>✅ 新增纯公益站：HFAPI</strong><br>' +
       '模型有 DeepSeek v4.1 flash、Kimi、Qwen 等，响应速度快。注意签到额度需要在 15 天内用完。<br>' +
       '<a href="https://hfapi.cloud/?invite=INVDE809159" target="_blank" rel="noopener">https://hfapi.cloud/?invite=INVDE809159</a><br><br>' +
+      '<strong>✅ 新增签到站：汐的API</strong><br>' +
+      '公益站，注册得 15 代币，签到 1～5 代币。有 Claude / Gemini / DeepSeek，不过模型成功率不算高。<br>' +
+      '<a href="https://api.203236.xyz/sign-up?aff=iBHd" target="_blank" rel="noopener">https://api.203236.xyz/sign-up?aff=iBHd</a><br><br>' +
       '<strong>✅ 新增签到站：织云</strong><br>' +
       '模型很全，签到给得比较大方，可以攒签到然后爽吃。<br>' +
       '<a href="https://zhiyunapi.cc/register?aff=jVwg" target="_blank" rel="noopener">https://zhiyunapi.cc/register?aff=jVwg</a><br><br>' +

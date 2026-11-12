@@ -113,6 +113,16 @@ const SITES = [
     note: '公益站，爽玩各种模型',
     status: 'ok',
   },
+  {
+    name: '汐的API',
+    category: 'pure',
+    condition: '',
+    link: 'https://api.203236.xyz/sign-up?aff=iBHd',
+    models: 'Claude / Gemini / DeepSeek 等',
+    quota: '注册得 15 代币，签到 1～5 代币',
+    note: '公益站，但模型成功率不算高',
+    status: 'ok',
+  },
 
   /* ==================== 签到站 ==================== */
   {
@@ -421,6 +431,16 @@ const SITES = [
     models: '模型比较多',
     quota: '签到 $0.01 ～ $0.1，签到额度有效期 24h，否则失效\n周五充值八折，充 5r 解锁 VIP，可累计签到额度',
     note: '邀请链接进 2.5r 试吃（参考：gemini0.02/次）',
+    status: 'ok',
+  },
+  {
+    name: '梧桐小院',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api2.wtxiaoyuan.top/register?aff=yuYA',
+    models: '现在有免费的鸡蛋 3.8 可以吃',
+    quota: '每日签到，签到额度可以囤起来\n进群可领试吃 1.5（群号见公告）',
+    note: '新签到站',
     status: 'ok',
   },
 
