@@ -57,7 +57,7 @@ const ANNOUNCEMENTS = [
       '要去申请才能用额度。<br><br>' +
       '<strong>📝 其他调整</strong><br>' +
       '• zooAPI 签到额度更新为 0.1 左右；<br>' +
-      '• 汐的API 归类为公益站（不是签到站）。',
+      '• 汐的API 归类为公益站（不是签到站），注意不能开梯子（魔法）、也不要开小号。',
     type: 'newsite',
   },
   {
@@ -85,6 +85,7 @@ const ANNOUNCEMENTS = [
       '<a href="https://hfapi.cloud/?invite=INVDE809159" target="_blank" rel="noopener">https://hfapi.cloud/?invite=INVDE809159</a><br><br>' +
       '<strong>✅ 新增签到站：汐的API</strong><br>' +
       '公益站，注册得 15 代币，签到 1～5 代币。有 Claude / Gemini / DeepSeek，不过模型成功率不算高。<br>' +
+      '<strong>⚠️ 注意</strong>：不能开梯子（魔法），也不要开小号。<br>' +
       '<a href="https://api.203236.xyz/sign-up?aff=iBHd" target="_blank" rel="noopener">https://api.203236.xyz/sign-up?aff=iBHd</a><br><br>' +
       '<strong>✅ 新增签到站：织云</strong><br>' +
       '模型很全，签到给得比较大方，可以攒签到然后爽吃。<br>' +

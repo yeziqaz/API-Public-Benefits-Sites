@@ -121,6 +121,7 @@ const SITES = [
     models: 'Claude / Gemini / DeepSeek 等',
     quota: '注册得 15 代币，签到 1～5 代币',
     note: '公益站，但模型成功率不算高',
+    warn: '不能开梯子（魔法），也不要开小号',
     status: 'ok',
   },
 
