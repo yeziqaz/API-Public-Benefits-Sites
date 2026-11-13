@@ -18,6 +18,15 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261113_02',
+    date: '2026-11-13',
+    title: '新增签到站：橘子',
+    content: '<strong>✅ 新增签到站：橘子（有条件签到）</strong><br>' +
+      '试吃 1，进群奖励 1.5；签到需要当日调用满 5 次才能签。<br>' +
+      '<a href="https://ai.juziai.cc/sign-up?aff=WacG" target="_blank" rel="noopener">https://ai.juziai.cc/sign-up?aff=WacG</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261113_01',
     date: '2026-11-13',
     title: '新增签到站 stoneAPI、纯公益站星见雅；缘起暂停注册',
