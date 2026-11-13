@@ -382,7 +382,8 @@ const SITES = [
     link: 'https://sunapi.5201201314.top/sign-up?aff=D7Kx',
     models: '常驻模型有 DeepSeek4.1flash、gemini3.5/3.6flash、gpt5.6/image1.5、glm4.5/4.6/4.7flash、Grok4.7 等',
     note: '基本上可以当做公益站使用，但可用性不高。站长偶尔会打猎一些模型回来',
-    status: 'ok',
+    status: 'closed',
+    statusText: '暂停注册',
   },
   {
     name: 'Factorypub',
