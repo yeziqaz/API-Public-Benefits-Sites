@@ -1,3 +1,0 @@
-X1 models: 'the model、GLM 5.3、Gemini 3.8 flash、GPT image 2 等',
-X2 scope: '日常聊天 + Coding（[CC] / Codex 等多种格式可接入）',
-X3 models: '太子（Gemini 4）/ 3.8flash、the model 5.5、Qwen Image 2.1 等',
