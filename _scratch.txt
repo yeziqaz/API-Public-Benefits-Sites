@@ -1,7 +1,0 @@
-T1 Claude 5.5
-T2 Claude Opus 5.5
-T3 Claude Code
-T4 Claude 4.5 Sonnet
-T5 Claude
-T6 Cl\u0061ude 5.5
-T7 太子（Gemini 4）/ 3.8flash、Claude Opus 5.5、Qwen Image 2.1 等
