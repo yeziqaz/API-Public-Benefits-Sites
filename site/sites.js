@@ -455,6 +455,15 @@ const SITES = [
     note: '新签到站',
     status: 'ok',
   },
+  {
+    name: '橘子',
+    category: 'checkin',
+    condition: '当日调用满 5 次才能签到',
+    link: 'https://ai.juziai.cc/sign-up?aff=WacG',
+    quota: '试吃 1，进群奖励 1.5',
+    note: '新签到站，进群还能多拿 1.5 奖励',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
