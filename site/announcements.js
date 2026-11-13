@@ -139,7 +139,7 @@ const ANNOUNCEMENTS = [
       '邀请码 <code>lvP3</code>（注册链接：<a href="https://api.rua.chat/sign-up?aff=lvP3" target="_blank" rel="noopener">https://api.rua.chat/sign-up?aff=lvP3</a>）。<br>' +
       '最近注册有福利礼包（送超多次数卡，很值）。签到送 30 积分 + 10 rua 币（积分用来买次卡，rua 币直接消费）。站子画风可爱、活动与玩法丰富，内置公益云酒馆与专属聊天，完全适合 airp 新手。缺点是塞的东西太多，导致进站速度慢了点。<br><br>' +
       '<strong>✅ 新增纯公益站：启源星</strong><br>' +
-      '无充值入口，GitHub 登录。模型有 the model、GLM 5.3、Gemini 3.8 flash、GPT image 2 等。<br>' +
+      '无充值入口，GitHub 登录。模型有 Claude 5.5、GLM 5.3、Gemini 3.8 flash、GPT image 2 等。<br>' +
       '<a href="https://chuan.sylu.cc/sign-up?aff=LTlk" target="_blank" rel="noopener">https://chuan.sylu.cc/sign-up?aff=LTlk</a>',
     type: 'newsite',
   },
@@ -148,7 +148,7 @@ const ANNOUNCEMENTS = [
     date: '2026-11-07',
     title: '新增签到站 piu酱、橘子汽水；77625路由暂不推荐；奶酪公益站注册码掉落',
     content: '<strong>✅ 新增签到站：piu酱</strong><br>' +
-      '邀请链接注册 +8 额度，每日签到固定 1 额度，可攒签到。还有赌狗小游戏（转盘、银行），也有 cat 凭证池。模型有太子（Gemini 4）/ 3.8flash、the model 5.5、Qwen Image 2.1 等。<br>' +
+      '邀请链接注册 +8 额度，每日签到固定 1 额度，可攒签到。还有赌狗小游戏（转盘、银行），也有 cat 凭证池。模型有太子（Gemini 4）/ 3.8flash、Claude Opus 5.5、Qwen Image 2.1 等。<br>' +
       '<a href="https://piu.du4s.com/sign-up?aff=BmFw" target="_blank" rel="noopener">https://piu.du4s.com/sign-up?aff=BmFw</a><br><br>' +
       '<strong>✅ 新增签到站：橘子汽水</strong><br>' +
       '邀请链接注册 +0.5 额度，可攒签到.模型较多，集中在 Gemini 和 Claude，有太子，此外还有 Grok 模型，适合 airp。<br>' +
