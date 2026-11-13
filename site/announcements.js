@@ -18,13 +18,31 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261113_01',
+    date: '2026-11-13',
+    title: '新增签到站 stoneAPI、纯公益站星见雅；缘起暂停注册',
+    content: '<strong>✅ 新增签到站：stoneAPI（有条件签到）</strong><br>' +
+      '需要充 5r 或者邀请满人才能开签到。签到一次给 0.1～0.3（参考：哈基米 3.8flash 0.01、太子 0.08、小克 0.08）。<br>' +
+      '<a href="https://stoneapi.cn/sign-up?aff=OI62" target="_blank" rel="noopener">https://stoneapi.cn/sign-up?aff=OI62</a><br><br>' +
+      '<strong>✅ 新增纯公益站：星见雅</strong><br>' +
+      '模型名很乱，需要自己去分辨一下。<br>' +
+      '<a href="https://new.xinjianya.top/register?aff=6V0I" target="_blank" rel="noopener">https://new.xinjianya.top/register?aff=6V0I</a><br><br>' +
+      '<strong>🔒 缘起暂停注册</strong><br>' +
+      '缘起目前暂停注册了，等官方通知再去看。<br><br>' +
+      '<strong>📝 其他调整</strong><br>' +
+      '• 南北绿豆 去掉「太子限免」相关说明；<br>' +
+      '• 维云 去掉「半公益站」的说法；<br>' +
+      '• linkAPI 已不能签到，挪到无签到站。',
+    type: 'newsite',
+  },
+  {
     id: '20261112_01',
     date: '2026-11-12',
     title: '💬 API站子分享交流群；新增签到站梧桐小院',
     content: '<strong>💬 API站子分享交流群</strong><br>' +
       '欢迎加入 API 站子分享交流群：<code>1131821929</code>，一起交流探讨、获取最新站子信息。<br><br>' +
       '<strong>✅ 新增签到站：梧桐小院</strong><br>' +
-      '现在有免费的鸡蛋 3.8 可以吃，每日签到，签到额度可以囤起来；进群可领试吃 1.5，群号见公告。<br>' +
+      '现在有免费的鸡蛋 3.8 可以吃，每日签到，签到额度可以囤起来；群公告加群可得 1.5 额度，有签到。<br>' +
       '<a href="https://api2.wtxiaoyuan.top/register?aff=yuYA" target="_blank" rel="noopener">https://api2.wtxiaoyuan.top/register?aff=yuYA</a>',
     type: 'newsite',
   },
@@ -37,7 +55,6 @@ const ANNOUNCEMENTS = [
       '<strong>✅ 新增签到站：南北绿豆</strong><br>' +
       '试吃 1r，每日签到 0.1～1。<br>' +
       '<strong>⚠️ 注意</strong>：注册后会被封号，需要进通知群 <code>1131935290</code> 报 ID 审核解封，解封后才能用。<br>' +
-      '🎁 <strong>12 号太子限免一天</strong>，可以趁这天去试吃。<br>' +
       '<a href="https://98ntl.com/sign-up?aff=ZPnJ" target="_blank" rel="noopener">https://98ntl.com/sign-up?aff=ZPnJ</a>',
     type: 'newsite',
   },
