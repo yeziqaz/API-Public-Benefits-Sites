@@ -124,6 +124,15 @@ const SITES = [
     warn: '不能开梯子（魔法），也不要开小号',
     status: 'ok',
   },
+  {
+    name: '星见雅',
+    category: 'pure',
+    condition: '',
+    link: 'https://new.xinjianya.top/register?aff=6V0I',
+    models: '模型名很乱，需要自己分辨',
+    note: '纯公益站',
+    status: 'ok',
+  },
 
   /* ==================== 签到站 ==================== */
   {
@@ -133,7 +142,8 @@ const SITES = [
     link: 'https://origin.nemodesk.top/sign-up?aff=DPr1',
     quota: '每日签到 8～42 白银（100:1 换算），还有连续签到奖励和各种古风小游戏',
     note: '很有古代江湖的感觉，可兑换角色卡解锁人物剧情，很有特色',
-    status: 'ok',
+    status: 'closed',
+    statusText: '暂停注册',
   },
   {
     name: '未完公益站',
@@ -265,16 +275,8 @@ const SITES = [
     models: 'Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等',
     quota: '签到领日卡，还有额外的额度可领（抽卡等小游戏可得）',
     register: 'GitHub / Google',
-    note: '私心认为这个算半公益站了，完全可以当公益站使用。有新手教程，各种客户端的接入基本上都有适配教程',
+    note: '有新手教程，各种客户端的接入基本上都有适配教程',
     warn: '可用魔法，响应速度快;不开魔法会比较慢',
-    status: 'ok',
-  },
-  {
-    name: 'linkAPI',
-    category: 'checkin',
-    condition: '',
-    link: 'https://linkapi.cc/sign-up?aff=vnM6',
-    note: '模型比较多',
     status: 'ok',
   },
   {
@@ -326,9 +328,9 @@ const SITES = [
     category: 'checkin',
     condition: '进群报 ID 审核解封后才能用',
     link: 'https://98ntl.com/sign-up?aff=ZPnJ',
-    quota: '试吃 1r，每日签到 0.1～1\n12 号太子限免一天',
+    quota: '试吃 1r，每日签到 0.1～1',
     register: '注册后会封号，需要进通知群（1131935290）报 ID 审核解封',
-    note: '新签到站，太子限免当天可以试吃',
+    note: '新签到站',
     warn: '注册后默认封号，务必进通知群 1131935290 报 ID 审核解封',
     status: 'ok',
     statusText: '需进群解封',
@@ -444,8 +446,25 @@ const SITES = [
     note: '新签到站',
     status: 'ok',
   },
+  {
+    name: 'stoneAPI',
+    category: 'checkin',
+    condition: '需充 5r 或邀请满人才能开签到',
+    link: 'https://stoneapi.cn/sign-up?aff=OI62',
+    quota: '签到一次给 0.1～0.3（参考：哈基米 3.8flash 0.01、太子 0.08、小克 0.08）',
+    note: '新签到站',
+    status: 'ok',
+  },
 
-  /* ==================== 无签-1站 ==================== */
+  /* ==================== 无签到站 ==================== */
+  {
+    name: 'linkAPI',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://linkapi.cc/sign-up?aff=vnM6',
+    note: '模型比较多；已取消签到',
+    status: 'ok',
+  },
   {
     name: '小力孩',                    // TODO：分类待确认
     category: 'nocheckin',
