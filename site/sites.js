@@ -282,7 +282,7 @@ const SITES = [
     category: 'checkin',
     condition: '',
     link: 'https://vsllm.cc/i/GT3Z',
-    scope: '日常聊天 + Coding（[CC] / Codex 等多种格式可接入）',
+    scope: '日常聊天 + Coding（Claude Code / Codex 等多种格式可接入）',
     models: 'Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等',
     quota: '签到领日卡，还有额外的额度可领（抽卡等小游戏可得）',
     register: 'GitHub / Google',
