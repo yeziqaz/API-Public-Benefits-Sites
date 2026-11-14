@@ -102,7 +102,7 @@ const SITES = [
     link: 'https://manliao.cyou/register?aff=000204',
     scope: '人机恋 / airp',
     quota: '注册礼 60 聊豆，长期有效\n邀请人 +120 聊豆，好友额外 +120 聊豆，邀请奖励长期有效',
-    note: '和未完、漫聊是一家的，都适用于人机恋 airp',
+    note: '和未完、幕间是一家的，都适用于人机恋 airp',
     warn: '签到额度只能当日使用无法攒签到，且主要是模型蠢蠢的，不再推荐',
     status: 'ok',
   },
@@ -405,6 +405,31 @@ const SITES = [
     status: 'unstable',
     statusText: '不推荐',
   },
+  {
+    name: '茉莉冰茶',
+    category: 'checkin',
+    condition: '',
+    link: 'http://45.205.31.214/sign-up?aff=6Bxk',
+    quota: '试吃 1，签到 0.05 左右',
+    warn: 'http 地址，注意数据安全',
+    status: 'ok',
+  },
+  {
+    name: 'velunqi',
+    category: 'checkin',
+    condition: '',
+    link: 'https://velunqi.asia/sign-up?aff=amE8',
+    quota: '试吃 15，签到 1～5，按量计费',
+    status: 'ok',
+  },
+  {
+    name: '舒芙蕾',
+    category: 'checkin',
+    condition: '',
+    link: 'https://shufulei.net/register?aff=wuWa',
+    quota: '无试吃，有签到且可攒签到',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
@@ -445,6 +470,26 @@ const SITES = [
     link: 'https://api.waianan.com/sign-up?aff=4I00',
     models: '薄甲 3.8 免费',
     quota: '注册送 0.5，无签到',
+    status: 'ok',
+  },
+
+  {
+    name: '幸运熊',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://lucky-bear.asia/sign-up?aff=r8A8',
+    quota: '试吃 2',
+    warn: '限定签到到 11 月 28 号截止',
+    status: 'ok',
+  },
+
+  {
+    name: 'sta1n',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://cdn.sta1n.cn/sign-up?aff=Dwor',
+    quota: '试吃 30 币',
+    note: '瓜比较多',
     status: 'ok',
   },
 
