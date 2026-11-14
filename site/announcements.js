@@ -18,16 +18,6 @@
 
 const ANNOUNCEMENTS = [
   {
-    id: '20261114_02',
-    date: '2026-11-14',
-    title: '📝 站点调整：HFAPI 移至签到站、纯公益站精简、ArityFlow 更名说明',
-    content: '<strong>📝 站点调整</strong><br>' +
-      '• <strong>HFAPI</strong> 确认是签到站，已从纯公益站挪到签到站分类（仍保留「要去申请才能用额度」的提醒，暂不推荐）；<br>' +
-      '• <strong>纯公益站</strong> 目前只保留 <strong>ArityFlow</strong>，其他纯公益站相关条目已撤掉；<br>' +
-      '• 之前名字写错了，正确写法是 <strong>ArityFlow</strong>（不是 ArtyFlow / Artiflow），相关展示已全部更正。',
-    type: 'update',
-  },
-  {
     id: '20261114_01',
     date: '2026-11-14',
     title: '新增纯公益站：ArityFlow（公开邀请码）',
