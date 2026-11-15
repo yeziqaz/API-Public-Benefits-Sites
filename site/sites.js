@@ -313,16 +313,6 @@ const SITES = [
     register: '仅支持 yaohuo / GitHub 账号注册',
     status: 'ok',
   },
-  {
-    name: '长春叙',
-    category: 'checkin',
-    condition: '',
-    link: 'https://changchunxu.xyz/sign-up?aff=nS1O',
-    scope: '日常聊天 + Coding',
-    models: 'Gemini / Claude / DeepSeek / Kimi 等',
-    quota: '注册送 4.5 额度，每日签到领额度',
-    status: 'ok',
-  },
 
   {
     name: 'BER分公益站',
@@ -402,14 +392,6 @@ const SITES = [
     status: 'ok',
   },
   {
-    name: 'velunqi',
-    category: 'checkin',
-    condition: '',
-    link: 'https://velunqi.asia/sign-up?aff=amE8',
-    quota: '试吃 15，签到 1～5，按量计费',
-    status: 'ok',
-  },
-  {
     name: '舒芙蕾',
     category: 'checkin',
     condition: '',
@@ -477,6 +459,26 @@ const SITES = [
     link: 'https://cdn.sta1n.cn/sign-up?aff=Dwor',
     quota: '试吃 30 币',
     note: '瓜比较多',
+    status: 'ok',
+  },
+
+  {
+    name: '长春叙',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://changchunxu.xyz/sign-up?aff=nS1O',
+    scope: '日常聊天 + Coding',
+    models: 'Gemini / Claude / DeepSeek / Kimi 等',
+    quota: '注册送 4.5 额度，已取消签到',
+    status: 'ok',
+  },
+
+  {
+    name: 'velunqi',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://velunqi.asia/sign-up?aff=amE8',
+    quota: '试吃 15，按量计费，已取消签到',
     status: 'ok',
   },
 
