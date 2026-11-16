@@ -407,6 +407,14 @@ const SITES = [
     quota: '无试吃，有签到且可攒签到',
     status: 'ok',
   },
+  {
+    name: '月栖',
+    category: 'checkin',
+    condition: '前一天有调用第二天才能签到',
+    link: 'https://yueqiai.top/sign-up?aff=OMz4',
+    quota: '试吃 1.5；前一天有调用第二天才能签到',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
