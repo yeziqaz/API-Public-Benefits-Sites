@@ -392,6 +392,14 @@ const SITES = [
     status: 'ok',
   },
   {
+    name: 'velunqi',
+    category: 'checkin',
+    condition: '',
+    link: 'https://velunqi.asia/sign-up?aff=amE8',
+    quota: '试吃 15，签到 1～5，按量计费',
+    status: 'ok',
+  },
+  {
     name: '舒芙蕾',
     category: 'checkin',
     condition: '',
@@ -474,11 +482,11 @@ const SITES = [
   },
 
   {
-    name: 'velunqi',
+    name: 'EazyData',
     category: 'nocheckin',
     condition: '',
-    link: 'https://velunqi.asia/sign-up?aff=amE8',
-    quota: '试吃 15，按量计费，已取消签到',
+    link: 'https://eazydata.org/sign-up?aff=u9aA',
+    quota: '注册送 100 额度（10 主钱包 + 90 副）；无签到，但有每日抽奖',
     status: 'ok',
   },
 
