@@ -18,6 +18,37 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261119_01',
+    date: '2026-11-19',
+    title: '新增签到站 稳稳 / 狸猫 / 北洛 / 好梦 / 大米饭 / 薯条、无签到站 芋头饭；缘起改有条件签到、悠米暂停注册、nodex 活动',
+    content: '<strong>✅ 新增签到站：稳稳</strong><br>' +
+      '注册送 2，有签到；连续签到第 7 天 ¥1、第 15 天 ¥2.5、第 30 天起每 30 天 ¥5。<br>' +
+      '<a href="https://wenwenapi.top/sign-up?aff=wJM0" target="_blank" rel="noopener">https://wenwenapi.top/sign-up?aff=wJM0</a><br><br>' +
+      '<strong>✅ 新增签到站：狸猫</strong><br>' +
+      '注册送 1，签到 0.05 左右。<br>' +
+      '<a href="https://limao-api.com/sign-up?aff=doRB" target="_blank" rel="noopener">https://limao-api.com/sign-up?aff=doRB</a><br><br>' +
+      '<strong>✅ 新增签到站：北洛</strong><br>' +
+      '无试吃，签到 0.01～0.10；连续签到 7 天额外领取 $0.20～$0.30 随机额度。<br>' +
+      '<a href="https://beiluoxi.xyz/register?aff=H23LNS4B3PLA" target="_blank" rel="noopener">https://beiluoxi.xyz/register?aff=H23LNS4B3PLA</a><br><br>' +
+      '<strong>✅ 新增签到站：好梦（有条件签到）</strong><br>' +
+      '当日消耗满 5 额度即可签到领奖。<br>' +
+      '<a href="https://goodreamapi.online/register?aff=goAz" target="_blank" rel="noopener">https://goodreamapi.online/register?aff=goAz</a><br><br>' +
+      '<strong>✅ 新增签到站：大米饭</strong><br>' +
+      '注册送 2，签到 0.06 左右。<br>' +
+      '<a href="https://damifan.xyz/sign-up?aff=UWRT" target="_blank" rel="noopener">https://damifan.xyz/sign-up?aff=UWRT</a><br><br>' +
+      '<strong>✅ 新增签到站：薯条</strong><br>' +
+      '注册送 0.88，用邀请码额外加 0.66；签到 0.15。每日 22:00–23:00 名称带「公益-」的模型限免，有 DeepSeek v4.1 flash 和 GLM 5.3 flash，参考小克 0.05（无哈基米模型）。<br>' +
+      '<a href="https://leepdszz.top/sign-up?aff=e1GJ" target="_blank" rel="noopener">https://leepdszz.top/sign-up?aff=e1GJ</a><br><br>' +
+      '<strong>✅ 新增无签到站：芋头饭</strong><br>' +
+      '注册送 150，参考 gemini-4h / 3.8flash 一次 4、小克 35 一次。<br>' +
+      '<a href="https://api2.yutou.fun/sign-up?aff=1cSH" target="_blank" rel="noopener">https://api2.yutou.fun/sign-up?aff=1cSH</a><br><br>' +
+      '<strong>📝 其他调整</strong><br>' +
+      '• 缘起 改成有条件签到，签到额度变为黄铜代币，需当天花完；<br>' +
+      '• 悠米 暂停注册；<br>' +
+      '• nodex 活动：11 月 18 号～20 号晚 8 点～11 点，太子全系列 + 3.8flash 0.02 一次调用。',
+    type: 'newsite',
+  },
+  {
     id: '20261114_01',
     date: '2026-11-14',
     title: '新增纯公益站：ArityFlow（公开邀请码）',
@@ -139,7 +170,7 @@ const ANNOUNCEMENTS = [
       '邀请码 <code>lvP3</code>（注册链接：<a href="https://api.rua.chat/sign-up?aff=lvP3" target="_blank" rel="noopener">https://api.rua.chat/sign-up?aff=lvP3</a>）。<br>' +
       '最近注册有福利礼包（送超多次数卡，很值）。签到送 30 积分 + 10 rua 币（积分用来买次卡，rua 币直接消费）。站子画风可爱、活动与玩法丰富，内置公益云酒馆与专属聊天，完全适合 airp 新手。缺点是塞的东西太多，导致进站速度慢了点。<br><br>' +
       '<strong>✅ 新增纯公益站：启源星</strong><br>' +
-      '无充值入口，GitHub 登录。模型有 Claude 5.5、GLM 5.3、Gemini 3.8 flash、GPT image 2 等。<br>' +
+      '无充值入口，GitHub 登录。模型有 the model、GLM 5.3、Gemini 3.8 flash、GPT image 2 等。<br>' +
       '<a href="https://chuan.sylu.cc/sign-up?aff=LTlk" target="_blank" rel="noopener">https://chuan.sylu.cc/sign-up?aff=LTlk</a>',
     type: 'newsite',
   },
@@ -148,7 +179,7 @@ const ANNOUNCEMENTS = [
     date: '2026-11-07',
     title: '新增签到站 piu酱、橘子汽水；77625路由暂不推荐；奶酪公益站注册码掉落',
     content: '<strong>✅ 新增签到站：piu酱</strong><br>' +
-      '邀请链接注册 +8 额度，每日签到固定 1 额度，可攒签到。还有赌狗小游戏（转盘、银行），也有 cat 凭证池。模型有太子（Gemini 4）/ 3.8flash、Claude Opus 5.5、Qwen Image 2.1 等。<br>' +
+      '邀请链接注册 +8 额度，每日签到固定 1 额度，可攒签到。还有赌狗小游戏（转盘、银行），也有 cat 凭证池。模型有太子（Gemini 4）/ 3.8flash、the model 5.5、Qwen Image 2.1 等。<br>' +
       '<a href="https://piu.du4s.com/sign-up?aff=BmFw" target="_blank" rel="noopener">https://piu.du4s.com/sign-up?aff=BmFw</a><br><br>' +
       '<strong>✅ 新增签到站：橘子汽水</strong><br>' +
       '邀请链接注册 +0.5 额度，可攒签到.模型较多，集中在 Gemini 和 Claude，有太子，此外还有 Grok 模型，适合 airp。<br>' +
