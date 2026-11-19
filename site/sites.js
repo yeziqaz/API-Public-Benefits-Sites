@@ -51,6 +51,15 @@ const SITES = [
     warn: '每日名额 50 人，零点刷新人数，拼手速',
     status: 'ok',
   },
+  {
+    name: '27API',
+    category: 'pure',
+    condition: '',
+    link: 'https://27api.com/register?aff=NVS4HLJ3S837',
+    quota: '微信小程序看广告得额度，每条广告 10，每天能看 15 次',
+    note: '公益站',
+    status: 'ok',
+  },
 
   /* ==================== 签到站 ==================== */
   {
@@ -189,7 +198,7 @@ const SITES = [
     category: 'checkin',
     condition: '',
     link: 'https://vsllm.cc/i/GT3Z',
-    scope: '日常聊天 + Coding（Cl\u0061ude Code / Codex 等多种格式可接入）',
+    scope: '日常聊天 + Coding（Claude Code / Codex 等多种格式可接入）',
     models: 'Claude / Gemini / GPT / Grok / DeepSeek / MiniMax / Kimi / GLM / Qwen 等',
     quota: '签到领日卡，还有额外的额度可领（抽卡等小游戏可得）',
     register: 'GitHub / Google',
@@ -202,7 +211,7 @@ const SITES = [
     category: 'checkin',
     condition: '',
     link: 'https://piu.du4s.com/sign-up?aff=BmFw',
-    models: '太子（Gemini 4）/ 3.8flash、Cl\u0061ude Opus 5.5、Qwen Image 2.1 等',
+    models: '太子（Gemini 4）/ 3.8flash、Claude Opus 5.5、Qwen Image 2.1 等',
     quota: '邀请链接注册 +8，每日签到固定 1，可攒签到\n有赌狗小游戏（转盘、银行），也有 cat 凭证池',
     note: '新签到站',
     status: 'ok',
@@ -562,6 +571,26 @@ const SITES = [
     link: 'https://api2.yutou.fun/sign-up?aff=1cSH',
     quota: '注册送 150，无签到',
     note: '参考：gemini-4h / 3.8flash 一次 4，小克 35 一次',
+    status: 'ok',
+  },
+
+  {
+    name: '角色ai',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://27api.com/register?aff=NVS4HLJ3S837',
+    quota: '注册进群送 3.5r（群号 1136548320）',
+    note: '有一分克和一分哈基米可以爽吃，站内有多角色卡以及角色 agent',
+    status: 'ok',
+  },
+
+  {
+    name: 'Ainzy',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://ainzy.net/sign-up?aff=zJec',
+    quota: '注册送 0.1，无签到；多是按量',
+    warn: '进不去可开梯',
     status: 'ok',
   },
 
