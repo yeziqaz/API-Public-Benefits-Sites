@@ -18,6 +18,21 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261119_02',
+    date: '2026-11-19',
+    title: '新增公益站 27API、无签到站 角色ai / Ainzy',
+    content: '<strong>✅ 新增公益站：27API</strong><br>' +
+      '微信小程序看广告得额度，每条广告 10，每天能看 15 次。<br>' +
+      '<a href="https://27api.com/register?aff=NVS4HLJ3S837" target="_blank" rel="noopener">https://27api.com/register?aff=NVS4HLJ3S837</a><br><br>' +
+      '<strong>✅ 新增无签到站：角色ai</strong><br>' +
+      '注册进群送 3.5r（群号 1136548320）；有一分克和一分哈基米可以爽吃，站内有多角色卡以及角色 agent。<br>' +
+      '<a href="https://27api.com/register?aff=NVS4HLJ3S837" target="_blank" rel="noopener">https://27api.com/register?aff=NVS4HLJ3S837</a><br><br>' +
+      '<strong>✅ 新增无签到站：Ainzy</strong><br>' +
+      '进不去可开梯；多是按量，注册送 0.1。<br>' +
+      '<a href="https://ainzy.net/sign-up?aff=zJec" target="_blank" rel="noopener">https://ainzy.net/sign-up?aff=zJec</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261119_01',
     date: '2026-11-19',
     title: '新增签到站 稳稳 / 狸猫 / 北洛 / 好梦 / 大米饭 / 薯条、无签到站 芋头饭；缘起改有条件签到、悠米暂停注册、nodex 活动',
@@ -200,7 +215,7 @@ const ANNOUNCEMENTS = [
       '签到送 50 额度（太子 4 额度 1 次，如果吃其他的更是基本上不用在意额度爽吃就行）。模型比较少，有 DeepSeek v4.1、Gemini 4/3.8、GPT 6.1，其他的都是豆包、千问之类的。<br>' +
       '<a href="https://api.catcat.top/sign-up?aff=kBJL" target="_blank" rel="noopener">https://api.catcat.top/sign-up?aff=kBJL</a><br><br>' +
       '<strong>🔓 晚晚舟重新开放注册（开放至 11 月 11 日）</strong><br>' +
-      '之前是邀请 5 人开永久签到，后面又变成了 10 人或充 20，争议蛮大的，很多人骂。不过开签到后每日固定送 1 额度，按次能吃 25 次小克或 100 次哈基米，有条件的还是可以冲一波。<br>' +
+      '之前是邀请 5 人开永久签到，后面又变成了 10 人或充 20，争议蛮大的，很多人骂。不过开签到后每日固定送 1 额度，按次能吃 25 次小克或 100 次哈基米，按量会更划算，有条件的还是可以冲一波。<br>' +
       '<a href="https://wanwanzhou.top/register?aff=PECCV33UH8P4" target="_blank" rel="noopener">https://wanwanzhou.top/register?aff=PECCV33UH8P4</a>',
     type: 'newsite',
   },
