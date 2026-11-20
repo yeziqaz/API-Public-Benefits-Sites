@@ -18,6 +18,21 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261120_01',
+    date: '2026-11-20',
+    title: '新增签到站 myapi公益 / 小黑、无签到站 castorice',
+    content: '<strong>✅ 新增签到站：myapi公益</strong><br>' +
+      '注册 100 额度，群内绑定签到（群号 <code>714847682</code>），无哈基米。<br>' +
+      '<a href="http://free.myaiapi.site:8080/register?aff=8SCF87TCJUTM" target="_blank" rel="noopener">http://free.myaiapi.site:8080/register?aff=8SCF87TCJUTM</a><br><br>' +
+      '<strong>✅ 新增签到站：小黑</strong><br>' +
+      '无试吃有签到，需开梯子；邀请码 <code>rBsw</code>。可在群公告找到微信群进入，让站长调特惠分组。<br>' +
+      '<a href="https://api.xiaoheiapi.com/sign-up?aff=rBsw" target="_blank" rel="noopener">https://api.xiaoheiapi.com/sign-up?aff=rBsw</a><br><br>' +
+      '<strong>✅ 新增无签到站：castorice</strong><br>' +
+      '无签到，有试吃。<br>' +
+      '<a href="https://castorice.shop/sign-up?aff=e31g" target="_blank" rel="noopener">https://castorice.shop/sign-up?aff=e31g</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261119_02',
     date: '2026-11-19',
     title: '新增公益站 27API、无签到站 角色ai / Ainzy',

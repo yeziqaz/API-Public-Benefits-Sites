@@ -489,6 +489,26 @@ const SITES = [
     note: '模型比较多；已开启签到',
     status: 'ok',
   },
+  {
+    name: 'myapi公益',
+    category: 'checkin',
+    condition: '群内绑定签到',
+    link: 'http://free.myaiapi.site:8080/register?aff=8SCF87TCJUTM',
+    quota: '注册 100 额度，群内绑定签到（群号 714847682）',
+    warn: '无哈基米；http 地址，注意数据安全',
+    status: 'ok',
+  },
+  {
+    name: '小黑',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api.xiaoheiapi.com/sign-up?aff=rBsw',
+    inviteCode: 'rBsw',
+    quota: '无试吃，有签到',
+    note: '可以在群公告找到微信群进入，让站长调特惠分组',
+    warn: '需开梯子',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
@@ -591,6 +611,15 @@ const SITES = [
     link: 'https://ainzy.net/sign-up?aff=zJec',
     quota: '注册送 0.1，无签到；多是按量',
     warn: '进不去可开梯',
+    status: 'ok',
+  },
+
+  {
+    name: 'castorice',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://castorice.shop/sign-up?aff=e31g',
+    quota: '无签到，有试吃',
     status: 'ok',
   },
 
