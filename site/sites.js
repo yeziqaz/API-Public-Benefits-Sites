@@ -509,6 +509,15 @@ const SITES = [
     warn: '需开梯子',
     status: 'ok',
   },
+  {
+    name: '神秘的酒馆',
+    category: 'checkin',
+    condition: '',
+    link: 'https://hb.dockerspeeds.asia/sign-up?aff=rjz6',
+    quota: '注册 1，签到 0～1，给的还挺多',
+    note: '参考：k克 0.25，哈基米 0.0125',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
@@ -568,7 +577,7 @@ const SITES = [
     name: '长春叙',
     category: 'nocheckin',
     condition: '',
-    link: 'https://changchunxu.xyz/sign-up?aff=nS1O',
+    link: 'https://changchunxu.si/sign-up?aff=nS1O',
     scope: '日常聊天 + Coding',
     models: 'Gemini / Claude / DeepSeek / Kimi 等',
     quota: '注册送 4.5 额度，已取消签到',
@@ -619,7 +628,26 @@ const SITES = [
     category: 'nocheckin',
     condition: '',
     link: 'https://castorice.shop/sign-up?aff=e31g',
-    quota: '无签到，有试吃',
+    quota: '无签到，也无试吃',
+    status: 'ok',
+  },
+
+  {
+    name: '一枝春',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://yizhichun.online/register?aff=WYATWF3CN364',
+    quota: '无签到，绑定送 2 额度',
+    register: '进群 1127296762 绑定后送 2 额度',
+    status: 'ok',
+  },
+
+  {
+    name: 'kevo',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://ai.xiaowumin.top/sign-up?aff=uGc9',
+    quota: '注册送 1，无签到',
     status: 'ok',
   },
 
