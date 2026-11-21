@@ -518,6 +518,22 @@ const SITES = [
     note: '参考：k克 0.25，哈基米 0.0125',
     status: 'ok',
   },
+  {
+    name: 'mq',
+    category: 'checkin',
+    condition: '',
+    link: 'https://modelmq.top/sign-up?aff=SCcg',
+    quota: '试吃 0.5，有签到',
+    status: 'ok',
+  },
+  {
+    name: '卡皮巴拉',
+    category: 'checkin',
+    condition: '充任意金额开启签到',
+    link: 'https://kapibala.asia/sign-up?aff=uBiO',
+    quota: '注册送 2，充任意金额开启签到',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
