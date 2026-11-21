@@ -18,6 +18,18 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261121_02',
+    date: '2026-11-21',
+    title: '新增签到站 mq / 卡皮巴拉',
+    content: '<strong>✅ 新增签到站：mq</strong><br>' +
+      '0.5 试吃，有签到。<br>' +
+      '<a href="https://modelmq.top/sign-up?aff=SCcg" target="_blank" rel="noopener">https://modelmq.top/sign-up?aff=SCcg</a><br><br>' +
+      '<strong>✅ 新增签到站：卡皮巴拉（有条件签到）</strong><br>' +
+      '注册送 2，充任意金额开启签到。<br>' +
+      '<a href="https://kapibala.asia/sign-up?aff=uBiO" target="_blank" rel="noopener">https://kapibala.asia/sign-up?aff=uBiO</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261121_01',
     date: '2026-11-21',
     title: '新增签到站 神秘的酒馆、无签到站 一枝春 / kevo；castorice 更正、长春叙链接更换',
