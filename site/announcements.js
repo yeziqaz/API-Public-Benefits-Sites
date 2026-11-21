@@ -18,6 +18,24 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261121_01',
+    date: '2026-11-21',
+    title: '新增签到站 神秘的酒馆、无签到站 一枝春 / kevo；castorice 更正、长春叙链接更换',
+    content: '<strong>✅ 新增签到站：神秘的酒馆</strong><br>' +
+      '注册 1，签到 0～1，给的还挺多（参考：k克 0.25，哈基米 0.0125）。<br>' +
+      '<a href="https://hb.dockerspeeds.asia/sign-up?aff=rjz6" target="_blank" rel="noopener">https://hb.dockerspeeds.asia/sign-up?aff=rjz6</a><br><br>' +
+      '<strong>✅ 新增无签到站：一枝春</strong><br>' +
+      '进群 <code>1127296762</code>，绑定送 2 额度；无签到。<br>' +
+      '<a href="https://yizhichun.online/register?aff=WYATWF3CN364" target="_blank" rel="noopener">https://yizhichun.online/register?aff=WYATWF3CN364</a><br><br>' +
+      '<strong>✅ 新增无签到站：kevo</strong><br>' +
+      '注册送 1，无签到。<br>' +
+      '<a href="https://ai.xiaowumin.top/sign-up?aff=uGc9" target="_blank" rel="noopener">https://ai.xiaowumin.top/sign-up?aff=uGc9</a><br><br>' +
+      '<strong>📝 其他调整</strong><br>' +
+      '• castorice 更正为无签到、也无试吃；<br>' +
+      '• 长春叙 邀请链接换为 <a href="https://changchunxu.si/sign-up?aff=nS1O" target="_blank" rel="noopener">https://changchunxu.si/sign-up?aff=nS1O</a>。',
+    type: 'newsite',
+  },
+  {
     id: '20261120_01',
     date: '2026-11-20',
     title: '新增签到站 myapi公益 / 小黑、无签到站 castorice',
@@ -28,7 +46,7 @@ const ANNOUNCEMENTS = [
       '无试吃有签到，需开梯子；邀请码 <code>rBsw</code>。可在群公告找到微信群进入，让站长调特惠分组。<br>' +
       '<a href="https://api.xiaoheiapi.com/sign-up?aff=rBsw" target="_blank" rel="noopener">https://api.xiaoheiapi.com/sign-up?aff=rBsw</a><br><br>' +
       '<strong>✅ 新增无签到站：castorice</strong><br>' +
-      '无签到，有试吃。<br>' +
+      '无签到，也无试吃。<br>' +
       '<a href="https://castorice.shop/sign-up?aff=e31g" target="_blank" rel="noopener">https://castorice.shop/sign-up?aff=e31g</a>',
     type: 'newsite',
   },
