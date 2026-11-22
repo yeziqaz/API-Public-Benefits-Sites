@@ -18,6 +18,27 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261122_01',
+    date: '2026-11-22',
+    title: '新增签到站 炉边酒馆 / 南鸢 / 灰白云、无签到站 dsh / 芝士',
+    content: '<strong>✅ 新增签到站：炉边酒馆</strong><br>' +
+      '注册给 12，有签到（参考：Gemini4a 一次 0.02）。<br>' +
+      '<a href="https://pub.els.edu.rs/sign-up?aff=oGkg" target="_blank" rel="noopener">https://pub.els.edu.rs/sign-up?aff=oGkg</a><br><br>' +
+      '<strong>✅ 新增签到站：南鸢</strong><br>' +
+      '有签到，只有国模。先注册再进群 <code>1087997265</code>，@bot 绑定账号。<br>' +
+      '<a href="https://api.nanyuanapi.com/sign-up?aff=q55q" target="_blank" rel="noopener">https://api.nanyuanapi.com/sign-up?aff=q55q</a><br><br>' +
+      '<strong>✅ 新增签到站：灰白云</strong><br>' +
+      '邀请链接注册 1.5，每日签到固定 1，连签三天 +0.88。<br>' +
+      '<a href="https://apis.yinlvai.cn/auth/register?code=wQcGHuoQ" target="_blank" rel="noopener">https://apis.yinlvai.cn/auth/register?code=wQcGHuoQ</a><br><br>' +
+      '<strong>✅ 新增无签到站：dsh</strong><br>' +
+      '无签到，国模，可当 Coding 用，送 0.1（1000 万 token）。<br>' +
+      '<a href="https://dshapi.icu/register?aff=3X6CS4Y9LLLD" target="_blank" rel="noopener">https://dshapi.icu/register?aff=3X6CS4Y9LLLD</a><br><br>' +
+      '<strong>✅ 新增无签到站：芝士</strong><br>' +
+      '注册送 100 额度（10 比 1），无签到。<br>' +
+      '<a href="https://zh1shi.top/register?aff=XHCK32YGE2VQ" target="_blank" rel="noopener">https://zh1shi.top/register?aff=XHCK32YGE2VQ</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261121_02',
     date: '2026-11-21',
     title: '新增签到站 mq / 卡皮巴拉',
