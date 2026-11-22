@@ -587,6 +587,16 @@ const SITES = [
     warn: '进不去可开梯',
     status: 'ok',
   },
+  {
+    name: '云猫（Ainzy）',
+    category: 'checkin',
+    condition: '充任意金额开启签到',
+    link: 'https://hk.ainzy.net/sign-up?aff=zJec',
+    quota: '需充任意金额才能开启签到',
+    register: '进群 <code>314058103</code> 绑定签到',
+    warn: '进不去可开梯',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
@@ -679,16 +689,6 @@ const SITES = [
     link: 'https://27api.com/register?aff=NVS4HLJ3S837',
     quota: '注册进群送 3.5r（群号 1136548320）',
     note: '有一分克和一分哈基米可以爽吃，站内有多角色卡以及角色 agent',
-    status: 'ok',
-  },
-
-  {
-    name: 'Ainzy',
-    category: 'nocheckin',
-    condition: '',
-    link: 'https://ainzy.net/sign-up?aff=zJec',
-    quota: '注册送 0.1，无签到；多是按量',
-    warn: '进不去可开梯',
     status: 'ok',
   },
 
