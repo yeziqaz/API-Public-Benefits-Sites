@@ -534,6 +534,25 @@ const SITES = [
     quota: '注册送 2，充任意金额开启签到',
     status: 'ok',
   },
+  {
+    name: '炉边酒馆',
+    category: 'checkin',
+    condition: '',
+    link: 'https://pub.els.edu.rs/sign-up?aff=oGkg',
+    quota: '注册给 12，有签到',
+    note: '参考：Gemini4a 一次 0.02',
+    status: 'ok',
+  },
+  {
+    name: '南鸢',
+    category: 'checkin',
+    condition: '注册后进群 @bot 绑定账号',
+    link: 'https://api.nanyuanapi.com/sign-up?aff=q55q',
+    models: '只有国模',
+    quota: '有签到',
+    register: '先注册再进群 <code>1087997265</code>，@bot 绑定账号',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
@@ -664,6 +683,17 @@ const SITES = [
     condition: '',
     link: 'https://ai.xiaowumin.top/sign-up?aff=uGc9',
     quota: '注册送 1，无签到',
+    status: 'ok',
+  },
+
+  {
+    name: 'dsh',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://dshapi.icu/register?aff=3X6CS4Y9LLLD',
+    scope: '可当 Coding 用',
+    models: '国模',
+    quota: '无签到，送 0.1（1000 万 token）',
     status: 'ok',
   },
 
