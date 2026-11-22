@@ -561,6 +561,32 @@ const SITES = [
     quota: '邀请链接注册 1.5，每日签到固定 1，连签三天 +0.88',
     status: 'ok',
   },
+  {
+    name: 'she',
+    category: 'checkin',
+    condition: '',
+    link: 'https://www.sheapi.top/sign-up?aff=c0ta',
+    quota: '注册送 1，有签到',
+    status: 'ok',
+  },
+  {
+    name: 'jiang',
+    category: 'checkin',
+    condition: '',
+    link: 'https://catapi.icu/sign-up?aff=XxNf',
+    quota: '每日签到 / 每日抽奖',
+    note: '半公益站',
+    status: 'ok',
+  },
+  {
+    name: '易辞寻',
+    category: 'checkin',
+    condition: '',
+    link: 'https://acf.xydaim.cn/sign-up?aff=ImRx',
+    register: '进群 <code>1135761090</code>',
+    warn: '进不去可开梯',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
