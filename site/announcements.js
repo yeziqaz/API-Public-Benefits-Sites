@@ -18,6 +18,21 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261122_04',
+    date: '2026-11-22',
+    title: '新增签到站 waner～（爱玩）、无签到站 51；易辞寻更换为风辞云',
+    content: '<strong>✅ 新增签到站：waner～（爱玩）</strong><br>' +
+      '注册 2，有签到；签到额度只能用 free 分组，free 分组里有哈基米 3.8flash/4n 和 4h。<br>' +
+      '<a href="https://api.aiwanai.cc/sign-up?aff=tnZg" target="_blank" rel="noopener">https://api.aiwanai.cc/sign-up?aff=tnZg</a><br><br>' +
+      '<strong>✅ 新增无签到站：51</strong><br>' +
+      '新站子，注册送 3，无签到；适合酒馆新手，提供详细教学和帮助。<br>' +
+      '<a href="https://51ai.io/register?aff=RKY89T7HJPSF" target="_blank" rel="noopener">https://51ai.io/register?aff=RKY89T7HJPSF</a><br><br>' +
+      '<strong>📝 站子更换：易辞寻 → 风辞云</strong><br>' +
+      '易辞寻站子已废弃，换成了风辞云：注册送 12.5，签到区间 ¥0.10 - ¥0.60，连续 7 天额外 ¥0.50。<br>' +
+      '<a href="https://ezch.xydaim.cn/register?aff=7UHPDFVCTFY5" target="_blank" rel="noopener">https://ezch.xydaim.cn/register?aff=7UHPDFVCTFY5</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261122_03',
     date: '2026-11-22',
     title: '站点更新：Ainzy 改名云猫，改为签到站',
@@ -38,7 +53,7 @@ const ANNOUNCEMENTS = [
       '每日签到 / 每日抽奖。<br>' +
       '<a href="https://catapi.icu/sign-up?aff=XxNf" target="_blank" rel="noopener">https://catapi.icu/sign-up?aff=XxNf</a><br><br>' +
       '<strong>✅ 新增签到站：易辞寻</strong><br>' +
-      '进群 <code>1135761090</code>；进不去可开梯。<br>' +
+      '进群 <code>1135761090</code>；进不去可开梯。（现已废弃，换成风辞云）<br>' +
       '<a href="https://acf.xydaim.cn/sign-up?aff=ImRx" target="_blank" rel="noopener">https://acf.xydaim.cn/sign-up?aff=ImRx</a>',
     type: 'newsite',
   },
