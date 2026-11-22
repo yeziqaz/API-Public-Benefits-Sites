@@ -18,6 +18,16 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261122_03',
+    date: '2026-11-22',
+    title: '站点更新：Ainzy 改名云猫，改为签到站',
+    content: '<strong>📝 云猫（原 Ainzy）</strong><br>' +
+      '之前的无签到站 Ainzy 改名为云猫，现在是签到站：需充任意金额才能开启签到，进群 <code>314058103</code> 绑定签到。<br>' +
+      '新链接：<a href="https://hk.ainzy.net/sign-up?aff=zJec" target="_blank" rel="noopener">https://hk.ainzy.net/sign-up?aff=zJec</a><br>' +
+      '<strong>⚠️ 注意</strong>：进不去可开梯。',
+    type: 'update',
+  },
+  {
     id: '20261122_02',
     date: '2026-11-22',
     title: '新增签到站 she / jiang / 易辞寻',
@@ -96,21 +106,6 @@ const ANNOUNCEMENTS = [
       '<strong>✅ 新增无签到站：castorice</strong><br>' +
       '无签到，也无试吃。<br>' +
       '<a href="https://castorice.shop/sign-up?aff=e31g" target="_blank" rel="noopener">https://castorice.shop/sign-up?aff=e31g</a>',
-    type: 'newsite',
-  },
-  {
-    id: '20261119_02',
-    date: '2026-11-19',
-    title: '新增公益站 27API、无签到站 角色ai / Ainzy',
-    content: '<strong>✅ 新增公益站：27API</strong><br>' +
-      '微信小程序看广告得额度，每条广告 10，每天能看 15 次。<br>' +
-      '<a href="https://27api.com/register?aff=NVS4HLJ3S837" target="_blank" rel="noopener">https://27api.com/register?aff=NVS4HLJ3S837</a><br><br>' +
-      '<strong>✅ 新增无签到站：角色ai</strong><br>' +
-      '注册进群送 3.5r（群号 1136548320）；有一分克和一分哈基米可以爽吃，站内有多角色卡以及角色 agent。<br>' +
-      '<a href="https://27api.com/register?aff=NVS4HLJ3S837" target="_blank" rel="noopener">https://27api.com/register?aff=NVS4HLJ3S837</a><br><br>' +
-      '<strong>✅ 新增无签到站：Ainzy</strong><br>' +
-      '进不去可开梯；多是按量，注册送 0.1。<br>' +
-      '<a href="https://ainzy.net/sign-up?aff=zJec" target="_blank" rel="noopener">https://ainzy.net/sign-up?aff=zJec</a>',
     type: 'newsite',
   },
   {
