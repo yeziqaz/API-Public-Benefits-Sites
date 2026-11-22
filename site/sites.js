@@ -553,6 +553,14 @@ const SITES = [
     register: '先注册再进群 <code>1087997265</code>，@bot 绑定账号',
     status: 'ok',
   },
+  {
+    name: '灰白云',
+    category: 'checkin',
+    condition: '',
+    link: 'https://apis.yinlvai.cn/auth/register?code=wQcGHuoQ',
+    quota: '邀请链接注册 1.5，每日签到固定 1，连签三天 +0.88',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
@@ -694,6 +702,15 @@ const SITES = [
     scope: '可当 Coding 用',
     models: '国模',
     quota: '无签到，送 0.1（1000 万 token）',
+    status: 'ok',
+  },
+
+  {
+    name: '芝士',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://zh1shi.top/register?aff=XHCK32YGE2VQ',
+    quota: '注册送 100 额度（10 比 1），无签到',
     status: 'ok',
   },
 
