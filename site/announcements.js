@@ -18,6 +18,21 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261122_02',
+    date: '2026-11-22',
+    title: '新增签到站 she / jiang / 易辞寻',
+    content: '<strong>✅ 新增签到站：she</strong><br>' +
+      '注册送 1，有签到。<br>' +
+      '<a href="https://www.sheapi.top/sign-up?aff=c0ta" target="_blank" rel="noopener">https://www.sheapi.top/sign-up?aff=c0ta</a><br><br>' +
+      '<strong>✅ 新增签到站：jiang（半公益站）</strong><br>' +
+      '每日签到 / 每日抽奖。<br>' +
+      '<a href="https://catapi.icu/sign-up?aff=XxNf" target="_blank" rel="noopener">https://catapi.icu/sign-up?aff=XxNf</a><br><br>' +
+      '<strong>✅ 新增签到站：易辞寻</strong><br>' +
+      '进群 <code>1135761090</code>；进不去可开梯。<br>' +
+      '<a href="https://acf.xydaim.cn/sign-up?aff=ImRx" target="_blank" rel="noopener">https://acf.xydaim.cn/sign-up?aff=ImRx</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261122_01',
     date: '2026-11-22',
     title: '新增签到站 炉边酒馆 / 南鸢 / 灰白云、无签到站 dsh / 芝士',
