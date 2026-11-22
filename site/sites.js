@@ -579,12 +579,12 @@ const SITES = [
     status: 'ok',
   },
   {
-    name: '易辞寻',
+    name: '风辞云',
     category: 'checkin',
     condition: '',
-    link: 'https://acf.xydaim.cn/sign-up?aff=ImRx',
-    register: '进群 <code>1135761090</code>',
-    warn: '进不去可开梯',
+    link: 'https://ezch.xydaim.cn/register?aff=7UHPDFVCTFY5',
+    quota: '注册送 12.5\n签到区间 ¥0.10 - ¥0.60，连续 7 天额外 ¥0.50',
+    note: '原易辞寻站子废弃，换成了这个',
     status: 'ok',
   },
   {
@@ -595,6 +595,15 @@ const SITES = [
     quota: '需充任意金额才能开启签到',
     register: '进群 <code>314058103</code> 绑定签到',
     warn: '进不去可开梯',
+    status: 'ok',
+  },
+  {
+    name: 'waner～（爱玩）',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api.aiwanai.cc/sign-up?aff=tnZg',
+    models: 'free 分组里有哈基米 3.8flash/4n 和 4h',
+    quota: '注册 2，有签到；签到额度只能用 free 分组',
     status: 'ok',
   },
 
@@ -737,6 +746,17 @@ const SITES = [
     condition: '',
     link: 'https://zh1shi.top/register?aff=XHCK32YGE2VQ',
     quota: '注册送 100 额度（10 比 1），无签到',
+    status: 'ok',
+  },
+
+  {
+    name: '51',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://51ai.io/register?aff=RKY89T7HJPSF',
+    scope: '适合酒馆新手',
+    quota: '注册送 3，无签到',
+    note: '新站子，提供详细教学和帮助',
     status: 'ok',
   },
 
