@@ -18,6 +18,23 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261123_01',
+    date: '2026-11-23',
+    title: '新增签到站 萨摩耶 / 小雨；waner～签到额度更新',
+    content: '<strong>✅ 新增签到站：萨摩耶</strong><br>' +
+      '走邀请进群绑定领试吃 1（群号 <code>727231938</code>）；签到额度是递增的，今天 0.02、明天 0.04 这样。活动期间价格：4a 0.06，3.8 0.008，4n 0.06，4h 0.04。<br>' +
+      '<a href="https://samoyeye.com/sign-up?aff=YNqN" target="_blank" rel="noopener">https://samoyeye.com/sign-up?aff=YNqN</a><br><br>' +
+      '<strong>✅ 新增签到站：小雨（有条件签到）</strong><br>' +
+      '注册送 1，有签到；昨日用满 0.5 今日可签到。参考：小克 0.2、3.8flash 0.012、4 是 0.11。<br>' +
+      '<a href="https://mixed.strai.life/sign-up?aff=Cfsi" target="_blank" rel="noopener">https://mixed.strai.life/sign-up?aff=Cfsi</a><br><br>' +
+      '<strong>📝 waner～（爱玩）更新</strong><br>' +
+      '签到额度实测 0.9 左右；签到只能用 free 分组，free 分组有哈基米 3.8flash/4n 和 4h。<br>' +
+      '<a href="https://api.aiwanai.cc/sign-up?aff=tnZg" target="_blank" rel="noopener">https://api.aiwanai.cc/sign-up?aff=tnZg</a><br><br>' +
+      '<strong>📝 标注调整</strong><br>' +
+      '绑定 QQbot 才能签到的站子（如 南鸢），不再标「有条件签到」，直接写「绑定 QQbot 签到」。',
+    type: 'newsite',
+  },
+  {
     id: '20261122_04',
     date: '2026-11-22',
     title: '新增签到站 waner～（爱玩）、无签到站 51；易辞寻更换为风辞云',
@@ -65,7 +82,7 @@ const ANNOUNCEMENTS = [
       '注册给 12，有签到（参考：Gemini4a 一次 0.02）。<br>' +
       '<a href="https://pub.els.edu.rs/sign-up?aff=oGkg" target="_blank" rel="noopener">https://pub.els.edu.rs/sign-up?aff=oGkg</a><br><br>' +
       '<strong>✅ 新增签到站：南鸢</strong><br>' +
-      '有签到，只有国模。先注册再进群 <code>1087997265</code>，@bot 绑定账号。<br>' +
+      '有签到，只有国模。绑定 QQbot 签到：先注册再进群 <code>1087997265</code>，@bot 绑定账号。<br>' +
       '<a href="https://api.nanyuanapi.com/sign-up?aff=q55q" target="_blank" rel="noopener">https://api.nanyuanapi.com/sign-up?aff=q55q</a><br><br>' +
       '<strong>✅ 新增签到站：灰白云</strong><br>' +
       '邀请链接注册 1.5，每日签到固定 1，连签三天 +0.88。<br>' +
