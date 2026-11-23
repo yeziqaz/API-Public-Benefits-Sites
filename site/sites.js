@@ -536,16 +536,6 @@ const SITES = [
     status: 'ok',
   },
   {
-    name: '南鸢',
-    category: 'checkin',
-    condition: '',
-    link: 'https://api.nanyuanapi.com/sign-up?aff=q55q',
-    models: '只有国模',
-    quota: '有签到',
-    register: '绑定 QQbot 签到：先注册再进群 <code>1087997265</code>，@bot 绑定账号',
-    status: 'ok',
-  },
-  {
     name: '灰白云',
     category: 'checkin',
     condition: '',
