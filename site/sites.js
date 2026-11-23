@@ -512,9 +512,9 @@ const SITES = [
   {
     name: '神秘的酒馆',
     category: 'checkin',
-    condition: '',
+    condition: '充值任意金额才开签到',
     link: 'https://hb.dockerspeeds.asia/sign-up?aff=rjz6',
-    quota: '注册 1，签到 0～1，给的还挺多',
+    quota: '注册 1；需充值任意金额才能开启签到\n签到 0～1，给的还挺多',
     note: '参考：k克 0.25，哈基米 0.0125',
     status: 'ok',
   },
@@ -524,14 +524,6 @@ const SITES = [
     condition: '',
     link: 'https://modelmq.top/sign-up?aff=SCcg',
     quota: '试吃 0.5，有签到',
-    status: 'ok',
-  },
-  {
-    name: '卡皮巴拉',
-    category: 'checkin',
-    condition: '充任意金额开启签到',
-    link: 'https://kapibala.asia/sign-up?aff=uBiO',
-    quota: '注册送 2，充任意金额开启签到',
     status: 'ok',
   },
   {
@@ -678,6 +670,15 @@ const SITES = [
     link: 'https://cdn.sta1n.cn/sign-up?aff=Dwor',
     quota: '试吃 30 币',
     note: '瓜比较多',
+    status: 'ok',
+  },
+
+  {
+    name: '卡皮巴拉',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://kapibala.asia/sign-up?aff=uBiO',
+    quota: '注册送 2，已取消签到',
     status: 'ok',
   },
 
