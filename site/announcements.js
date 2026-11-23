@@ -18,12 +18,14 @@
 
 const ANNOUNCEMENTS = [
   {
-    id: '20261123_04',
+    id: '20261123_05',
     date: '2026-11-23',
-    title: '移除 jiang 站子',
-    content: '<strong>🗑️ 移除站点：jiang</strong><br>' +
-      'jiang 已从签到站列表和相关公告中移除。',
-    type: 'update',
+    title: '新增签到站：柯基邮局',
+    content: '<strong>✅ 新增签到站：柯基邮局</strong><br>' +
+      '注册送 3，每日签到 1～5。<br>' +
+      '参考价格：3.8 是 0.03、4a 是 0.13。<br>' +
+      '<a href="https://kejiyouju.com/sign-up?aff=WTZ4" target="_blank" rel="noopener">https://kejiyouju.com/sign-up?aff=WTZ4</a>',
+    type: 'newsite',
   },
   {
     id: '20261123_03',
