@@ -18,6 +18,14 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261123_04',
+    date: '2026-11-23',
+    title: '移除 jiang 站子',
+    content: '<strong>🗑️ 移除站点：jiang</strong><br>' +
+      'jiang 已从签到站列表和相关公告中移除。',
+    type: 'update',
+  },
+  {
     id: '20261123_03',
     date: '2026-11-23',
     title: '站点调整：神秘的酒馆改为充值才开签到、卡皮巴拉取消签到',
@@ -84,13 +92,10 @@ const ANNOUNCEMENTS = [
   {
     id: '20261122_02',
     date: '2026-11-22',
-    title: '新增签到站 she / jiang / 易辞寻',
+    title: '新增签到站 she / 易辞寻',
     content: '<strong>✅ 新增签到站：she</strong><br>' +
       '注册送 1，有签到。<br>' +
       '<a href="https://www.sheapi.top/sign-up?aff=c0ta" target="_blank" rel="noopener">https://www.sheapi.top/sign-up?aff=c0ta</a><br><br>' +
-      '<strong>✅ 新增签到站：jiang（半公益站）</strong><br>' +
-      '每日签到 / 每日抽奖。<br>' +
-      '<a href="https://catapi.icu/sign-up?aff=XxNf" target="_blank" rel="noopener">https://catapi.icu/sign-up?aff=XxNf</a><br><br>' +
       '<strong>✅ 新增签到站：易辞寻</strong><br>' +
       '进群 <code>1135761090</code>；进不去可开梯。（现已废弃，换成风辞云）<br>' +
       '<a href="https://acf.xydaim.cn/sign-up?aff=ImRx" target="_blank" rel="noopener">https://acf.xydaim.cn/sign-up?aff=ImRx</a>',
