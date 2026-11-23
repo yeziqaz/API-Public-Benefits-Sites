@@ -63,7 +63,7 @@ const ANNOUNCEMENTS = [
       '签到额度实测 0.9 左右；签到只能用 free 分组，free 分组有哈基米 3.8flash/4n 和 4h。<br>' +
       '<a href="https://api.aiwanai.cc/sign-up?aff=tnZg" target="_blank" rel="noopener">https://api.aiwanai.cc/sign-up?aff=tnZg</a><br><br>' +
       '<strong>📝 标注调整</strong><br>' +
-      '绑定 QQbot 才能签到的站子（如 南鸢），不再标「有条件签到」，直接写「绑定 QQbot 签到」。',
+      '需要绑定 QQbot 才能签到的站子，不再标「有条件签到」，直接写「绑定 QQbot 签到」。',
     type: 'newsite',
   },
   {
@@ -106,13 +106,10 @@ const ANNOUNCEMENTS = [
   {
     id: '20261122_01',
     date: '2026-11-22',
-    title: '新增签到站 炉边酒馆 / 南鸢 / 灰白云、无签到站 dsh / 芝士',
+    title: '新增签到站 炉边酒馆 / 灰白云、无签到站 dsh / 芝士',
     content: '<strong>✅ 新增签到站：炉边酒馆</strong><br>' +
       '注册给 12，有签到（参考：Gemini4a 一次 0.02）。<br>' +
       '<a href="https://pub.els.edu.rs/sign-up?aff=oGkg" target="_blank" rel="noopener">https://pub.els.edu.rs/sign-up?aff=oGkg</a><br><br>' +
-      '<strong>✅ 新增签到站：南鸢</strong><br>' +
-      '有签到，只有国模。绑定 QQbot 签到：先注册再进群 <code>1087997265</code>，@bot 绑定账号。<br>' +
-      '<a href="https://api.nanyuanapi.com/sign-up?aff=q55q" target="_blank" rel="noopener">https://api.nanyuanapi.com/sign-up?aff=q55q</a><br><br>' +
       '<strong>✅ 新增签到站：灰白云</strong><br>' +
       '邀请链接注册 1.5，每日签到固定 1，连签三天 +0.88。<br>' +
       '<a href="https://apis.yinlvai.cn/auth/register?code=wQcGHuoQ" target="_blank" rel="noopener">https://apis.yinlvai.cn/auth/register?code=wQcGHuoQ</a><br><br>' +
@@ -329,15 +326,13 @@ const ANNOUNCEMENTS = [
   {
     id: '20261107_01',
     date: '2026-11-07',
-    title: '新增签到站 piu酱、橘子汽水；77625路由暂不推荐；奶酪公益站注册码掉落',
+    title: '新增签到站 piu酱、橘子汽水；奶酪公益站注册码掉落',
     content: '<strong>✅ 新增签到站：piu酱</strong><br>' +
       '邀请链接注册 +8 额度，每日签到固定 1 额度，可攒签到。还有赌狗小游戏（转盘、银行），也有 cat 凭证池。模型有太子（Gemini 4）/ 3.8flash、the model 5.5、Qwen Image 2.1 等。<br>' +
       '<a href="https://piu.du4s.com/sign-up?aff=BmFw" target="_blank" rel="noopener">https://piu.du4s.com/sign-up?aff=BmFw</a><br><br>' +
       '<strong>✅ 新增签到站：橘子汽水</strong><br>' +
       '邀请链接注册 +0.5 额度，可攒签到.模型较多，集中在 Gemini 和 Claude，有太子，此外还有 Grok 模型，适合 airp。<br>' +
       '<a href="https://juziqishui.net/register?aff=yX00" target="_blank" rel="noopener">https://juziqishui.net/register?aff=yX00</a><br><br>' +
-      '<strong>⚠️ 77625路由站暂不推荐注册</strong><br>' +
-      '站子抗压不行，注册人数远超站子可承受能力范围，等站子稳定再说。<br><br>' +
       '<strong>🎁 奶酪公益站注册码掉落</strong><br>' +
       '掉落一枚奶酪公益站注册码，用完即止！<br>' +
       '注册链接：<a href="https://nailao.biz/sign-up?aff=kQwD" target="_blank" rel="noopener">https://nailao.biz/sign-up?aff=kQwD</a><br>' +
