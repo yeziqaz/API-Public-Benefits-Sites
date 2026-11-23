@@ -780,6 +780,16 @@ const SITES = [
     status: 'ok',
   },
 
+  {
+    name: 'A6Api',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://a6api.ai/?auth=register&aff=dRIQ',
+    models: '模型非常多（3000+ 个），渠道多',
+    quota: '注册送 0.1 额度，无签到\n参考价格：3.8flash 0.02、4h 0.09、小克最低 0.0015',
+    status: 'ok',
+  },
+
   /* ==================== Coding 站 ==================== */
   {
     name: 'Axis ai',
