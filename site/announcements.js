@@ -18,6 +18,16 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261123_02',
+    date: '2026-11-23',
+    title: '新增无签到站：A6Api',
+    content: '<strong>✅ 新增无签到站：A6Api</strong><br>' +
+      '注册送 0.1 额度，无签到；<strong>模型非常多（3000+ 个）</strong>，渠道也多，挑模型能挑花眼。<br>' +
+      '参考价格：3.8flash 0.02、4h 0.09、小克最低 0.0015。<br>' +
+      '<a href="https://a6api.ai/?auth=register&aff=dRIQ" target="_blank" rel="noopener">https://a6api.ai/?auth=register&aff=dRIQ</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261123_01',
     date: '2026-11-23',
     title: '新增签到站 萨摩耶 / 小雨；waner～签到额度更新',
