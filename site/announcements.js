@@ -18,6 +18,18 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261123_03',
+    date: '2026-11-23',
+    title: '站点调整：神秘的酒馆改为充值才开签到、卡皮巴拉取消签到',
+    content: '<strong>📝 神秘的酒馆（改为有条件签到）</strong><br>' +
+      '注册 1，现在需要<strong>充值任意金额才能开启签到</strong>，签到 0～1，给的还挺多（参考：k克 0.25，哈基米 0.0125）。<br>' +
+      '<a href="https://hb.dockerspeeds.asia/sign-up?aff=rjz6" target="_blank" rel="noopener">https://hb.dockerspeeds.asia/sign-up?aff=rjz6</a><br><br>' +
+      '<strong>📝 卡皮巴拉（取消签到，挪到无签到站）</strong><br>' +
+      '现在没有签到了，注册送 2。<br>' +
+      '<a href="https://kapibala.asia/sign-up?aff=uBiO" target="_blank" rel="noopener">https://kapibala.asia/sign-up?aff=uBiO</a>',
+    type: 'update',
+  },
+  {
     id: '20261123_02',
     date: '2026-11-23',
     title: '新增无签到站：A6Api',
@@ -113,7 +125,7 @@ const ANNOUNCEMENTS = [
       '0.5 试吃，有签到。<br>' +
       '<a href="https://modelmq.top/sign-up?aff=SCcg" target="_blank" rel="noopener">https://modelmq.top/sign-up?aff=SCcg</a><br><br>' +
       '<strong>✅ 新增签到站：卡皮巴拉（有条件签到）</strong><br>' +
-      '注册送 2，充任意金额开启签到。<br>' +
+      '注册送 2，充任意金额开启签到。（现已取消签到，挪到无签到站）<br>' +
       '<a href="https://kapibala.asia/sign-up?aff=uBiO" target="_blank" rel="noopener">https://kapibala.asia/sign-up?aff=uBiO</a>',
     type: 'newsite',
   },
@@ -122,7 +134,7 @@ const ANNOUNCEMENTS = [
     date: '2026-11-21',
     title: '新增签到站 神秘的酒馆、无签到站 一枝春 / kevo；castorice 更正、长春叙链接更换',
     content: '<strong>✅ 新增签到站：神秘的酒馆</strong><br>' +
-      '注册 1，签到 0～1，给的还挺多（参考：k克 0.25，哈基米 0.0125）。<br>' +
+      '注册 1，签到 0～1，给的还挺多（参考：k克 0.25，哈基米 0.0125）。（现已改为充值任意金额才开签到）<br>' +
       '<a href="https://hb.dockerspeeds.asia/sign-up?aff=rjz6" target="_blank" rel="noopener">https://hb.dockerspeeds.asia/sign-up?aff=rjz6</a><br><br>' +
       '<strong>✅ 新增无签到站：一枝春</strong><br>' +
       '进群 <code>1127296762</code>，绑定送 2 额度；无签到。<br>' +
