@@ -562,15 +562,6 @@ const SITES = [
     status: 'ok',
   },
   {
-    name: 'jiang',
-    category: 'checkin',
-    condition: '',
-    link: 'https://catapi.icu/sign-up?aff=XxNf',
-    quota: '每日签到 / 每日抽奖',
-    note: '半公益站',
-    status: 'ok',
-  },
-  {
     name: '风辞云',
     category: 'checkin',
     condition: '',
