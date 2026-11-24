@@ -18,6 +18,16 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261124_02',
+    date: '2026-11-24',
+    title: '新增签到站：玖时',
+    content: '<strong>✅ 新增签到站：玖时（有条件签到）</strong><br>' +
+      '注册送 1，累计充值 2 可开签到。<br>' +
+      '参考价格：4h 0.04、k克 0.195、3.8flash 0.038。<br>' +
+      '<a href="https://api.jiushi.xin/register?aff=wjtg" target="_blank" rel="noopener">https://api.jiushi.xin/register?aff=wjtg</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261124_01',
     date: '2026-11-24',
     title: '新增签到站 初雪 / 双子星',
