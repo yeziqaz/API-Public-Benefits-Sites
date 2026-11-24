@@ -626,6 +626,14 @@ const SITES = [
     note: '新站子，次数制和额度制并行，抗截断模型是特色',
     status: 'ok',
   },
+  {
+    name: '玖时',
+    category: 'checkin',
+    condition: '累计充值 2 才开签到',
+    link: 'https://api.jiushi.xin/register?aff=wjtg',
+    quota: '注册送 1；累计充值 2 可开签到\n参考价格：4h 0.04、k克 0.195、3.8flash 0.038',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
