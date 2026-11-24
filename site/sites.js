@@ -607,6 +607,25 @@ const SITES = [
     quota: '注册送 3，每日签到 1～5\n参考价格：3.8 是 0.03、4a 是 0.13',
     status: 'ok',
   },
+  {
+    name: '初雪',
+    category: 'checkin',
+    condition: '',
+    link: 'https://thefirstsnow.top/sign-up?aff=i0Y7',
+    quota: '注册送 2.5，有签到（刚签到是 0.49）\n开业福利：4a / 3.8flash 0.08',
+    note: '新站子',
+    status: 'ok',
+  },
+  {
+    name: '双子星',
+    category: 'checkin',
+    condition: '',
+    link: 'https://www.onemodel8.com/register?invite=53441909',
+    models: '只有哈基米（比例 1:10）；有抗截断模型',
+    quota: '注册送 30 额度 + 50 次模型使用（50 次 7 天内有效）\n每天登录送 5 次次数\n参考价格：3.8 是 0.02、太子是 0.4',
+    note: '新站子，次数制和额度制并行，抗截断模型是特色',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
