@@ -600,14 +600,6 @@ const SITES = [
     status: 'ok',
   },
   {
-    name: '柯基邮局',
-    category: 'checkin',
-    condition: '',
-    link: 'https://kejiyouju.com/sign-up?aff=WTZ4',
-    quota: '注册送 3，每日签到 1～5\n参考价格：3.8 是 0.03、4a 是 0.13',
-    status: 'ok',
-  },
-  {
     name: '初雪',
     category: 'checkin',
     condition: '',
