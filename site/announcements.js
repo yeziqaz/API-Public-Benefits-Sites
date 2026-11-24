@@ -18,6 +18,18 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261124_01',
+    date: '2026-11-24',
+    title: '新增签到站 初雪 / 双子星',
+    content: '<strong>✅ 新增签到站：初雪</strong><br>' +
+      '注册送 2.5，有签到（刚签到是 0.49）。开业福利：4a / 3.8flash 0.08，新站子。<br>' +
+      '<a href="https://thefirstsnow.top/sign-up?aff=i0Y7" target="_blank" rel="noopener">https://thefirstsnow.top/sign-up?aff=i0Y7</a><br><br>' +
+      '<strong>✅ 新增签到站：双子星</strong><br>' +
+      '注册送 30 额度 + 50 次模型使用（50 次 7 天内有效），每天登录送 5 次次数；只有哈基米（比例 1:10），有抗截断模型。参考价格：3.8 是 0.02、太子 0.4。<br>' +
+      '<a href="https://www.onemodel8.com/register?invite=53441909" target="_blank" rel="noopener">https://www.onemodel8.com/register?invite=53441909</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261123_05',
     date: '2026-11-23',
     title: '新增签到站：柯基邮局',
