@@ -2,7 +2,7 @@
  * 站点数据：以后加站 / 改站只需要改这个文件
  * ---------------------------------------------------------
  * 页面上的「站子汇总」和「站子分类」都是根据下面的 SITES 自动生成的。
- * 新增一个站子 → 汇总名单和分类名单会同时出现，不用改 index.html。
+ * 新增一个站子 → 汇总名单和分类卡片会同时出现，不用改 index.html。
  * 名字的先后顺序 = 下面 SITES 里写的先后顺序。
  *
  * 新增站子：复制一整段 { ... }, 粘贴进 SITES，改内容即可。
@@ -807,6 +807,19 @@ const SITES = [
     link: 'https://a6api.ai/?auth=register&aff=dRIQ',
     models: '模型非常多（3000+ 个），渠道多',
     quota: '注册送 0.1 额度，无签到\n参考价格：3.8flash 0.02、4h 0.09、小克最低 0.0015',
+    status: 'ok',
+  },
+
+  {
+    name: 'midalo',
+    category: 'nocheckin',
+    condition: '',
+    link: 'https://forward.midalo.ai/sign-up?aff=va3j',
+    scope: 'airp',
+    models: '目前无哈基米（后面会上）',
+    quota: '注册额度 2～3，需找客服要\n按量计费，无签到',
+    register: '客服 QQ 2667896928，群号 1055038671',
+    note: '可以先注册领试吃，等上哈基米再吃',
     status: 'ok',
   },
 
