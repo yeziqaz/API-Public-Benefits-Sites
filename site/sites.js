@@ -131,9 +131,9 @@ const SITES = [
     link: 'https://nodexapi.it.com/sign-up?aff=H5nt',
     quota: '签到可得 0.1\n活动 11 月 18 号～20 号晚 8 点～11 点：太子全系列 + 3.8flash 0.02 一次调用',
     note: '小克好吃。站子数据丢失，都得重新注册；站长很负责，之前签到的额度也给补了，后续稳定下来会开活动',
-    warn: '暂不推荐，等站子稳定下来再看后续情况',
-    status: 'unstable',
-    statusText: '暂不推荐',
+    warn: '站子暂停注册，等稳定下来再看后续情况',
+    status: 'closed',
+    statusText: '暂停注册',
   },
   {
     name: '宅恋',
@@ -270,16 +270,6 @@ const SITES = [
     models: '模型很全',
     quota: '签到给得比较大方，可以攒签到然后爽吃',
     note: '新签到站',
-    status: 'ok',
-  },
-  {
-    name: 'zooAPI',
-    category: 'checkin',
-    condition: '',
-    link: 'https://zooapi.gfkfqtcx.com/sign-up?aff=Qwse',
-    models: '模型很全（参考太子 0.08、小克 0.06 等）',
-    quota: '注册送 0.5，签到 0.1 左右',
-    note: '新签到站，额度比较大方',
     status: 'ok',
   },
   {
@@ -669,7 +659,10 @@ const SITES = [
     link: 'https://api.waianan.com/sign-up?aff=4I00',
     models: '薄甲 3.8 免费',
     quota: '注册送 0.5，无签到',
+    note: '很好吃，没注册的可以先注册着',
+    warn: '11 月 26 日中午 12:00 停止注册',
     status: 'ok',
+    statusText: '11-26 12:00 停止注册',
   },
 
   {
