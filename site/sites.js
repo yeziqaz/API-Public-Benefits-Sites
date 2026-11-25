@@ -2,7 +2,7 @@
  * 站点数据：以后加站 / 改站只需要改这个文件
  * ---------------------------------------------------------
  * 页面上的「站子汇总」和「站子分类」都是根据下面的 SITES 自动生成的。
- * 新增一个站子 → 汇总名单和分类卡片会同时出现，不用改 index.html。
+ * 新增一个站子 → 汇总名单和分类名单会同时出现，不用改 index.html。
  * 名字的先后顺序 = 下面 SITES 里写的先后顺序。
  *
  * 新增站子：复制一整段 { ... }, 粘贴进 SITES，改内容即可。
@@ -624,6 +624,17 @@ const SITES = [
     condition: '累计充值 2 才开签到',
     link: 'https://api.jiushi.xin/register?aff=wjtg',
     quota: '注册送 1；累计充值 2 可开签到\n参考价格：4h 0.04、k克 0.195、3.8flash 0.038',
+    status: 'ok',
+  },
+  {
+    name: '卡扣',
+    category: 'checkin',
+    condition: '需装客户端注册并调用 1 次 AI 服务',
+    link: 'https://kakouai.com/register?aff=HGCT5SXZS2J6',
+    scope: '剧情向 RP 可用',
+    quota: '注册赠送 0.36 元\n登录后使用 1 次 AI 服务（例如连接 Codex 后调用一次）可获得 5 元额度\n签到：网页签到 0.15，客户端签到 0.3',
+    register: '需在电脑上第一次安装【卡扣AI 管家】客户端并注册登录',
+    warn: '不能破限；剧情向 RP 可以',
     status: 'ok',
   },
 
