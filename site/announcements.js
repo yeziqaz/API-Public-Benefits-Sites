@@ -18,6 +18,16 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261125_02',
+    date: '2026-11-25',
+    title: '新增无签到站：midalo',
+    content: '<strong>✅ 新增无签到站：midalo</strong><br>' +
+      'airp 站子，按量计费，无签到。注册额度 2～3，<strong>需要找客服要</strong>：客服 QQ <code>2667896928</code>，群号 <code>1055038671</code>。<br>' +
+      '目前无哈基米，后面会上，可以先注册领个试吃。<br>' +
+      '<a href="https://forward.midalo.ai/sign-up?aff=va3j" target="_blank" rel="noopener">https://forward.midalo.ai/sign-up?aff=va3j</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261125_01',
     date: '2026-11-25',
     title: '新增签到站：卡扣',
