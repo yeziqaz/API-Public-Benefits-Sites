@@ -18,6 +18,19 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261125_03',
+    date: '2026-11-25',
+    title: '移除 zooAPI；AnAn 明天中午 12:00 停止注册；nodex 暂停注册',
+    content: '<strong>📝 移除站子：zooAPI</strong><br>' +
+      'zooAPI 已从合集中删除，不再收录。<br><br>' +
+      '<strong>⏰ AnAn 明天中午 12:00 停止注册</strong><br>' +
+      '11 月 26 日中午 12:00 停止注册，<strong>很好吃</strong>，没注册的可以先注册着！<br>' +
+      '<a href="https://api.waianan.com/sign-up?aff=4I00" target="_blank" rel="noopener">https://api.waianan.com/sign-up?aff=4I00</a><br><br>' +
+      '<strong>🔒 nodex 暂停注册</strong><br>' +
+      'nodex 目前暂停注册，等恢复后再看后续情况。',
+    type: 'update',
+  },
+  {
     id: '20261125_01',
     date: '2026-11-25',
     title: '新增签到站：卡扣',
