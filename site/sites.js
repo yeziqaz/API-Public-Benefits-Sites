@@ -810,19 +810,6 @@ const SITES = [
     status: 'ok',
   },
 
-  {
-    name: 'midalo',
-    category: 'nocheckin',
-    condition: '',
-    link: 'https://forward.midalo.ai/sign-up?aff=va3j',
-    scope: 'airp',
-    models: '目前无哈基米（后面会上）',
-    quota: '注册额度 2～3，需找客服要\n按量计费，无签到',
-    register: '客服 QQ 2667896928，群号 1055038671',
-    note: '可以先注册领试吃，等上哈基米再吃',
-    status: 'ok',
-  },
-
   /* ==================== Coding 站 ==================== */
   {
     name: 'Axis ai',
