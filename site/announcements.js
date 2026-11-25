@@ -18,6 +18,17 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261125_01',
+    date: '2026-11-25',
+    title: '新增签到站：卡扣',
+    content: '<strong>✅ 新增签到站：卡扣（有条件签到）</strong><br>' +
+      '注册赠送 0.36 元；需在<strong>电脑上第一次安装【卡扣AI 管家】客户端</strong>并注册登录，登录后使用 1 次 AI 服务（例如连接 Codex 后调用一次）可获得 <strong>5 元额度</strong>。<br>' +
+      '签到：网页签到 0.15，客户端签到 0.3。<br>' +
+      '<strong>⚠️ 注意</strong>：这家不能破限，剧情向 RP 可以。<br>' +
+      '<a href="https://kakouai.com/register?aff=HGCT5SXZS2J6" target="_blank" rel="noopener">https://kakouai.com/register?aff=HGCT5SXZS2J6</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261124_02',
     date: '2026-11-24',
     title: '新增签到站：玖时',
