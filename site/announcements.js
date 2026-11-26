@@ -18,6 +18,15 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261126_01',
+    date: '2026-11-26',
+    title: '移除炉边酒馆（群已解散）',
+    content: '<strong>📝 移除站子：炉边酒馆</strong><br>' +
+      '炉边酒馆的群已经解散了，大概率是要跑路，已从合集中删除，不建议再充值或继续使用。<br>' +
+      '<strong>⚠️ 提醒</strong>：充值前务必小额测试，别在来路不明的新站子里压太多钱。',
+    type: 'update',
+  },
+  {
     id: '20261125_03',
     date: '2026-11-25',
     title: '移除 zooAPI；AnAn 明天中午 12:00 停止注册；nodex 暂停注册',
@@ -142,11 +151,8 @@ const ANNOUNCEMENTS = [
   {
     id: '20261122_01',
     date: '2026-11-22',
-    title: '新增签到站 炉边酒馆 / 灰白云、无签到站 dsh / 芝士',
-    content: '<strong>✅ 新增签到站：炉边酒馆</strong><br>' +
-      '注册给 12，有签到（参考：Gemini4a 一次 0.02）。<br>' +
-      '<a href="https://pub.els.edu.rs/sign-up?aff=oGkg" target="_blank" rel="noopener">https://pub.els.edu.rs/sign-up?aff=oGkg</a><br><br>' +
-      '<strong>✅ 新增签到站：灰白云</strong><br>' +
+    title: '新增签到站 灰白云、无签到站 dsh / 芝士',
+    content: '<strong>✅ 新增签到站：灰白云</strong><br>' +
       '邀请链接注册 1.5，每日签到固定 1，连签三天 +0.88。<br>' +
       '<a href="https://apis.yinlvai.cn/auth/register?code=wQcGHuoQ" target="_blank" rel="noopener">https://apis.yinlvai.cn/auth/register?code=wQcGHuoQ</a><br><br>' +
       '<strong>✅ 新增无签到站：dsh</strong><br>' +
