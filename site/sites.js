@@ -517,15 +517,6 @@ const SITES = [
     status: 'ok',
   },
   {
-    name: '炉边酒馆',
-    category: 'checkin',
-    condition: '',
-    link: 'https://pub.els.edu.rs/sign-up?aff=oGkg',
-    quota: '注册给 12，有签到',
-    note: '参考：Gemini4a 一次 0.02',
-    status: 'ok',
-  },
-  {
     name: '灰白云',
     category: 'checkin',
     condition: '',
