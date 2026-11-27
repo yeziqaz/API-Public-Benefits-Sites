@@ -618,6 +618,16 @@ const SITES = [
     warn: '不能破限；剧情向 RP 可以',
     status: 'ok',
   },
+  {
+    name: '咕咕嘎',
+    category: 'checkin',
+    condition: '',
+    link: 'https://v2.aicode2api.cc/register?aff=SUFL2ZB2TCM5',
+    models: '免费 glm-5.3-flash、deepseek-v4.1-flash：每天可用 100 次，仅限网页兑换内，共 400 次，128K 上下文\n鹅 gemini-3.8-flash-ais 0.015/次',
+    quota: '注册送零额度；签到 $0.004 - $0.05，签到额度有效期 7 天',
+    note: '有免费 glm / deepseek flash 可以吃，签到额度 7 天内要用完',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
