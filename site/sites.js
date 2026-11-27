@@ -701,7 +701,7 @@ const SITES = [
     name: 'EazyData',
     category: 'nocheckin',
     condition: '',
-    link: 'https://eazydata.org/sign-up?aff=u9A9A',
+    link: 'https://eazydata.org/sign-up?aff=u9aA',
     quota: '注册送 100 额度（10 主钱包 + 90 副）；无签到，但有每日抽奖',
     status: 'ok',
   },
