@@ -18,6 +18,16 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261127_01',
+    date: '2026-11-27',
+    title: '幸运熊需要重新注册（网站崩了，额度群内补）',
+    content: '<strong>📝 幸运熊需要重新注册</strong><br>' +
+      '幸运熊网站崩了，之前的账号数据没了，<strong>需要重新注册</strong>。之前充过 / 有额度的，可以进群找管理员补，群号 <code>1045541629</code>。<br>' +
+      '现在走邀请链接注册送试吃 2，有签到。<br>' +
+      '<a href="https://lucky-bear.asia/sign-up?aff=kz58" target="_blank" rel="noopener">https://lucky-bear.asia/sign-up?aff=kz58</a>',
+    type: 'update',
+  },
+  {
     id: '20261126_01',
     date: '2026-11-26',
     title: '移除炉边酒馆（群已解散）',
