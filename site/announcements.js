@@ -18,6 +18,16 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261127_02',
+    date: '2026-11-27',
+    title: '新增签到站：咕咕嘎',
+    content: '<strong>✅ 新增签到站：咕咕嘎</strong><br>' +
+      '注册送零额度，有签到：签到 $0.004 - $0.05，<strong>签到额度有效期 7 天</strong>，记得及时用。<br>' +
+      '免费模型：glm-5.3-flash、deepseek-v4.1-flash，<strong>每天可用 100 次</strong>（仅限网页兑换内，共 400 次，128K 上下文）。参考价格：鹅 gemini-3.8-flash-ais 0.015/次。<br>' +
+      '<a href="https://v2.aicode2api.cc/register?aff=SUFL2ZB2TCM5" target="_blank" rel="noopener">https://v2.aicode2api.cc/register?aff=SUFL2ZB2TCM5</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261127_01',
     date: '2026-11-27',
     title: '幸运熊需要重新注册（网站崩了，额度群内补）',
