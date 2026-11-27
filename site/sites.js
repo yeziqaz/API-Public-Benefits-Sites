@@ -658,11 +658,12 @@ const SITES = [
 
   {
     name: '幸运熊',
-    category: 'nocheckin',
+    category: 'checkin',
     condition: '',
-    link: 'https://lucky-bear.asia/sign-up?aff=r8A8',
-    quota: '试吃 2',
-    warn: '限定签到到 11 月 28 号截止',
+    link: 'https://lucky-bear.asia/sign-up?aff=kz58',
+    quota: '走邀请链接试吃 2，有签到',
+    register: '网站崩了需要重新注册；额度在群里补，群号 1045541629',
+    warn: '站点崩过需重新注册，额度找群 1045541629 补',
     status: 'ok',
   },
 
@@ -700,7 +701,7 @@ const SITES = [
     name: 'EazyData',
     category: 'nocheckin',
     condition: '',
-    link: 'https://eazydata.org/sign-up?aff=u9aA',
+    link: 'https://eazydata.org/sign-up?aff=u9A9A',
     quota: '注册送 100 额度（10 主钱包 + 90 副）；无签到，但有每日抽奖',
     status: 'ok',
   },
