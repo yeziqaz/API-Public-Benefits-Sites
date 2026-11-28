@@ -18,6 +18,18 @@
 
 const ANNOUNCEMENTS = [
   {
+    id: '20261128_01',
+    date: '2026-11-28',
+    title: '新增签到站：fox / 龙族',
+    content: '<strong>✅ 新增签到站：fox</strong><br>' +
+      '进群领试吃 5（群号 <code>1104376762</code>），每日签到 0.1。参考价格：克 0.15、太子 0.048，挺划算。<br>' +
+      '<a href="https://api.foxapi.chat/sign-up?aff=hkVoiq" target="_blank" rel="noopener">https://api.foxapi.chat/sign-up?aff=hkVoiq</a><br><br>' +
+      '<strong>✅ 新增签到站：龙族</strong><br>' +
+      '注册送 1.6，有签到。<br>' +
+      '<a href="https://api.dragonrajai.online/sign-up?aff=1yre" target="_blank" rel="noopener">https://api.dragonrajai.online/sign-up?aff=1yre</a>',
+    type: 'newsite',
+  },
+  {
     id: '20261127_02',
     date: '2026-11-27',
     title: '新增签到站：咕咕嘎',
