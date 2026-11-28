@@ -628,6 +628,26 @@ const SITES = [
     note: '有免费 glm / deepseek flash 可以吃，签到额度 7 天内要用完',
     status: 'ok',
   },
+  {
+    name: 'fox',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api.foxapi.chat/sign-up?aff=hkVoiq',
+    models: '有 0.15 的克、0.048 的太子',
+    quota: '进群试吃 5，每日签到 0.1',
+    register: '进群 <code>1104376762</code> 领试吃 5',
+    note: '克 0.15、太子 0.048，价格挺划算',
+    status: 'ok',
+  },
+  {
+    name: '龙族',
+    category: 'checkin',
+    condition: '',
+    link: 'https://api.dragonrajai.online/sign-up?aff=1yre',
+    quota: '注册送 1.6，有签到',
+    note: '新签到站',
+    status: 'ok',
+  },
 
   /* ==================== 无签到站 ==================== */
   {
